@@ -1,0 +1,25 @@
+###########
+# site.url, site.title
+
+url:   'http://calltracker.io'
+title: 'calltracker.io'
+
+
+########
+# more settings
+
+markdown: kramdown
+
+sass:
+  sass_dir: css
+  style:    expanded
+
+
+
+exclude:
+- README.md
+
+
+safe: true
+lsi: false
+
