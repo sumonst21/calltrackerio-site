@@ -31,3 +31,11 @@
 .navbar-brand {
 	color: $headings-color;
 }
+
+.navbar-toggle {
+	background-color: $brand-primary;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;;
+}
