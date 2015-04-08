@@ -37,5 +37,18 @@
 }
 
 .navbar-toggle .icon-bar {
-    background-color: #fff;;
+    background-color: #fff;
+}
+
+.navbar-brand {
+	padding: 10px 15px;
+}
+
+.navbar-brand > img {
+	width: 40px;
+	margin-right: 10px;
+}
+.navbar-brand > span {
+	display: block;
+  	width: 180px;
 }
