@@ -10,9 +10,22 @@
 // add more css stuff here
 
 .content {
-  padding: 40px 15px;
+  padding: 40px 0px;
 }
 
+// Section Background Styles
+
+.bg-light-grey {
+	background-color: #e5e5e5;
+}
+
+// Icon Styles
+
+.md-6x {
+	font-size: 6em;
+}
+
+// Navbar Styles
 .navbar-nav > li.active > a {
 	background: none repeat scroll 0 0 rgba(0,0,0,0);
   	box-shadow: 0 -3px 0 0 $brand-primary inset;
