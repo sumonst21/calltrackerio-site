@@ -1,8 +1,8 @@
 ---
 layout: base
-title:  'Call Tracking, Phone Call Analytics by Call Tracker '
+title:  'Sign Up'
 ---
-{% include header-no-nav.html %}
+{% include header-sign-up.html %}
 <div class="content">
 <section>
 	<div class="container">
@@ -19,41 +19,37 @@ title:  'Call Tracking, Phone Call Analytics by Call Tracker '
 			<div class="col-md-6 col-md-offset-3">
 				<div class="panel">
 					<div class="panel-body p-30">
-					<h4 class="text-center">Create your {{ site.name }} account</h4>
+					<h4 class="text-center">Insights for where your calls come from</h4>
+					<p class="lead text-center">Start call tracking today.</p>
 					<form action="http://calltracker.createsend.com/t/i/s/jtitij/" method="post" id="subForm" class="form">
 					    <div class="form-group">
-					        <label for="fieldName">Your Name</label><br />
-					        <input class="form-control input-lg" id="fieldName" name="cm-name" type="text" />
+					        <input class="form-control" id="fieldName" name="cm-name" type="text" placeholder="Your Name" />
+					        <label for="fieldName"></label>
 					    </div>
 					    <div class="form-group">
-					        <label for="fieldEmail">Your Email</label><br />
-					        <input class="form-control input-lg" id="fieldEmail" name="cm-jtitij-jtitij" type="email" required />
+					        <input class="form-control" id="fieldEmail" name="cm-jtitij-jtitij" type="email" placeholder="Your Email" required />
+					        <label for="fieldEmail"></label>
 					    </div>
 					    <div class="form-group">
-					        <label for="fieldEmail">Company Namne</label><br />
-					        <input class="form-control input-lg" id="fieldEmail" name="cm-jtitij-jtitij" type="email" required />
+					        <input class="form-control" id="fieldEmail" name="cm-jtitij-jtitij" type="email" placeholder="Company Name" required />
+					        <label for="fieldEmail"></label>
 					    </div>
 					    <div class="form-group">
-					        <label for="fieldEmail">Password</label><br />
-					        <input class="form-control input-lg" id="password" name="cm-jtitij-jtitij" type="password" required />
+					        <input class="form-control" id="password" name="cm-jtitij-jtitij" type="password" placeholder="Password" required />
+					        <label for="fieldEmail"></label>
 					    </div>
-					    <div class="checkbox">
-					    <label>
-					      <input type="checkbox"> I agree to the <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a>.
-					    </label>
-					  	</div>
 					    <div class="form-group">
-					        <button type="submit" class="btn btn-primary btn-block">Sign Up</button>
+					        <button type="submit" class="btn btn-primary btn-block btn-lg">Create My Account</button>
 					    </div>
 					</form>
 					</div>
 				</div>
+				<p class="text-center">By signing up you agree to <a href="#">Terms of Service</a> and the <a href="#">Privacy Policy</a>.</p>
 			</div>
 		</div>
 	</div>
 </section>
-</div>	
-{% include footer.html %}
+</div>
 {% include javascript.html %}
 </body>
 </html>
