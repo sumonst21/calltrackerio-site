@@ -5,6 +5,7 @@
 @import 'bootstrap';
 @import 'bootswatch';
 @import 'utility-classes';
+@import 'c3';
 
 // add more css stuff here
 
@@ -74,5 +75,13 @@
 
 .img-profile-avatar {
 	margin-top: -5px;
+}
+
+.navbar.sub-nav {
+	min-height: 42px;
+}
+.sub-nav .navbar-nav > li > a{
+	padding-top:10px;
+	padding-bottom:10px;
 }
 // Form Styles
