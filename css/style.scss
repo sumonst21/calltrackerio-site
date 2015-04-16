@@ -13,6 +13,9 @@
   padding: 40px 0px;
 }
 
+.bold {
+	font-weight: bold;
+}
 // Section Background Styles
 
 .bg-light-grey {
@@ -78,10 +81,11 @@
 }
 
 .navbar.sub-nav {
-	min-height: 42px;
+	min-height: 32px;
+	border-top: 1px solid #eee;
 }
 .sub-nav .navbar-nav > li > a{
-	padding-top:10px;
-	padding-bottom:10px;
+	padding-top:5px;
+	padding-bottom:5px;
 }
 // Form Styles
