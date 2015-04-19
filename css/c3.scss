@@ -52,7 +52,8 @@
 
 /*-- Bar --*/
 .c3-bar {
-  stroke-width: 0; }
+  stroke-width: 0;
+  fill-opacity: 0.8; }
 
 .c3-bar._expanded_ {
   fill-opacity: 0.75; }
@@ -132,7 +133,7 @@
 /*-- Area --*/
 .c3-area {
   stroke-width: 0;
-  opacity: 0.2; }
+  opacity: 0.8 !important; }
 
 /*-- Arc --*/
 .c3-chart-arcs-title {

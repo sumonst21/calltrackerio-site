@@ -6,20 +6,24 @@
 @import 'bootswatch';
 @import 'utility-classes';
 @import 'c3';
+//@import 'jquery.dataTables';
+@import 'jquery.dataTables.bootstrap';
 
 // add more css stuff here
 
 .content {
   padding: 40px 0px;
 }
-
 .bold {
 	font-weight: bold;
+}
+.border-right {
+	border-right:solid 1px #eee;
 }
 // Section Background Styles
 
 .bg-light-grey {
-	background-color: #e5e5e5;
+	background-color: #eee;
 }
 
 // Icon Styles
@@ -33,6 +37,9 @@
 	margin-bottom: 0px;
 }
 
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background-color: transparent;
+}
 .navbar-nav > li.active > a {
 	background: none repeat scroll 0 0 rgba(0,0,0,0);
   	box-shadow: 0 -3px 0 0 $brand-primary inset;
@@ -52,7 +59,7 @@
 	color: $headings-color;
 }
 
-.navbar-toggle {
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: $brand-primary;
 }
 
@@ -89,3 +96,57 @@
 	padding-bottom:5px;
 }
 // Form Styles
+
+// Chart Styles
+.chart-title {
+	border-bottom: 1px solid #eee;
+  	padding-bottom: 5px;
+  	font-weight: bold;
+  	font-size: 15px;
+}
+// c3 Chart Overrides
+.c3-tooltip {
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: #fff;
+  empty-cells: show;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  opacity: 1; 
+  color: #000;
+}
+.c3-tooltip th {
+  background-color: #fff;
+  font-size: 14px;
+  padding: 2px 5px;
+  text-align: left;
+  color: #000; 
+}
+.c3-tooltip tr {
+  border: 1px solid #eee; 
+}
+
+.dataTables_length, .dataTables_info {
+	display:inline;
+}
+
+.dataTables_filter, .dataTables_paginate {
+	float: right;
+}
+
+table.dataTable.no-footer {
+  border-bottom: 1px solid #eee;
+}
+
+.dataTables_wrapper .dataTables_filter input:focus {
+	border-bottom: 1px;
+	border-bottom-color: $brand-primary;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+	border: none;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+	border: none;
+}
