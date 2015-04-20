@@ -8,7 +8,8 @@
 @import 'c3';
 //@import 'jquery.dataTables';
 @import 'jquery.dataTables.bootstrap';
-
+@import 'select2';
+@import 'select2-bootstrap';
 // add more css stuff here
 
 .content {
@@ -19,6 +20,10 @@
 }
 .border-right {
 	border-right:solid 1px #eee;
+}
+
+a:hover, a:focus {
+	color: $brand-primary;
 }
 // Section Background Styles
 
@@ -75,12 +80,15 @@
 	width: 40px;
 	margin-right: 10px;
 }
-.navbar-brand > span {
+.navbar-brand > p {
 	display: block;
   	width: 210px;
   	text-transform: uppercase;
   	font-size: 16px;
   	font-weight: 700;
+}
+.navbar-brand > p > span {
+	color: $brand-primary;
 }
 
 .img-profile-avatar {
@@ -125,6 +133,9 @@
 }
 .c3-tooltip tr {
   border: 1px solid #eee; 
+}
+.c3-legend-item-tile {
+	shape-rendering: initial;
 }
 
 .dataTables_length, .dataTables_info {
