@@ -8,8 +8,11 @@
 @import 'c3';
 //@import 'jquery.dataTables';
 @import 'jquery.dataTables.bootstrap';
-@import 'select2';
-@import 'select2-bootstrap';
+//@import 'select2';
+//@import 'select2-bootstrap';
+@import 'mediaelementplayer';
+@import 'progression-player';
+@import 'progression-minimal-light';
 // add more css stuff here
 
 .content {
@@ -25,12 +28,36 @@
 a:hover, a:focus {
 	color: $brand-primary;
 }
+
+.panel-body {
+  padding: 0 15px 15px 15px;
+}
+h5.media-heading {
+	font-size: 16px;
+}
 // Section Background Styles
 
 .bg-light-grey {
 	background-color: #eee;
 }
 
+// Custom Media Element Audio Player style
+// play
+body .progression-skin.progression-minimal-light .mejs-controls .mejs-time-rail .mejs-time-handle {
+	width: 12px;
+  	height: 12px;
+}
+body .progression-skin.progression-minimal-light .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+	top: 16px;
+}
+body .progression-skin.progression-minimal-light .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+	top: 16px;
+}
+body .progression-skin.progression-minimal-light .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-handle {
+	top: 16px;
+	width: 8px;
+  	height: 8px;
+}
 // Icon Styles
 
 .md-6x {
@@ -86,6 +113,7 @@ a:hover, a:focus {
   	text-transform: uppercase;
   	font-size: 16px;
   	font-weight: 700;
+  	color: #000;
 }
 .navbar-brand > p > span {
 	color: $brand-primary;

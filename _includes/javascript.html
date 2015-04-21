@@ -7,6 +7,8 @@
 <script src="js/d3.min.js"></script>
 <script src="js/c3.min.js"></script>
 <script src="js/c3.overrides.js"></script>
+<script src="js/mediaelement-and-player.min.js"></script>
+<script src="js/main.js"></script>
 <script type="text/javascript">
 //fixed top sub-nav
 $(window).scroll(function() {    
@@ -22,5 +24,12 @@ $(window).scroll(function() {
 $(document).ready(function() {
 	$(".accounts-nav-select").select2(
 	);
+});
+</script>
+<script>
+$('audio').mediaelementplayer({
+	audioWidth: 400, // width of audio player
+	audioHeight: 40, // height of audio player
+    features: ['playpause','progress','current','duration','volume',],
 });
 </script>
