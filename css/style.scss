@@ -14,9 +14,7 @@
 @import 'progression-player';
 @import 'progression-minimal-light';
 // add more css stuff here
-
 .content {
-  padding: 40px 0px;
 }
 .bold {
 	font-weight: bold;
@@ -40,6 +38,12 @@ h5.media-heading {
 .bg-light-grey {
 	background-color: #eee;
 }
+
+.segment-primary {
+  background: #1D93F0;
+}
+
+
 
 // Custom Media Element Audio Player style
 // play
@@ -229,4 +233,10 @@ table.dataTable.no-footer {
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
 	border: none;
+}
+
+.segment-hero {
+  background: url(../images/DeathtoStock_Wired8.jpg) no-repeat;
+  min-height: 800px;
+  background-size: cover;
 }
