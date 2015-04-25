@@ -39,11 +39,6 @@ h5.media-heading {
 	background-color: #eee;
 }
 
-.segment-primary {
-  background: #1D93F0;
-}
-
-
 
 // Custom Media Element Audio Player style
 // play
@@ -237,6 +232,13 @@ table.dataTable.no-footer {
 
 .segment-hero {
   background: url(../images/DeathtoStock_Wired8.jpg) no-repeat;
-  min-height: 800px;
+  min-height: 600px;
   background-size: cover;
+}
+
+.segment-primary {
+  background: #1D93F0;
+}
+.segment-primary p.lead, .segment-primary h3 {
+  color: #ffffff !important;
 }
