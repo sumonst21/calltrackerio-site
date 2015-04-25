@@ -39,7 +39,16 @@ h5.media-heading {
 	background-color: #eee;
 }
 
+.btn-xl {
+    padding: 18px 28px;
+    font-size: 22px;
+    line-height: normal;
+  }
 
+ul.lead {
+  font-size: 18px;
+  line-height: 40px;
+} 
 // Custom Media Element Audio Player style
 // play
 body .progression-skin.progression-minimal-light .mejs-controls .mejs-time-rail .mejs-time-handle {
@@ -66,6 +75,7 @@ body .progression-skin.progression-minimal-light .mejs-controls .mejs-horizontal
 // Navbar Styles
 .navbar {
 	margin-bottom: 0px;
+  border-radius: 0px;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
@@ -241,4 +251,10 @@ table.dataTable.no-footer {
 }
 .segment-primary p.lead, .segment-primary h3 {
   color: #ffffff !important;
+}
+
+
+//slidedown header
+.slide-down-header.hidden {
+  display: none;
 }
