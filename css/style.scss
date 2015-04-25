@@ -49,6 +49,9 @@ ul.lead {
   font-size: 18px;
   line-height: 40px;
 } 
+ul.lead i {
+    margin-right: 10px;
+}
 // Custom Media Element Audio Player style
 // play
 body .progression-skin.progression-minimal-light .mejs-controls .mejs-time-rail .mejs-time-handle {
@@ -257,4 +260,7 @@ table.dataTable.no-footer {
 //slidedown header
 .slide-down-header.hidden {
   display: none;
+}
+.slide-down-header {
+  transition: background-color 0.5s ease;
 }
