@@ -1,29 +1,25 @@
 ---
 layout: base
-title: Sign In
+title: 'Sign In'
 ---
+{% include header-sign-up.html %}
 <div class="content">
 <section>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 text-center">
-				<img class="text-center" src="images/calltrackerio-logo-vertical_03.png" width="80">
-				<h4 class="text-center text-uppercase bold">{{ site.name }}</h4>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-4 col-md-offset-4">
-				<div class="panel">
-					<div class="panel-body p-30">
+			<div class="col-md-6 col-md-offset-3">
+				<div class="panel p-30">
+					<div class="panel-body">
 					<h5 class="text-center">Sign in to your account</h5>
 					<form action="http://calltracker.createsend.com/t/i/s/jtitij/" method="post" id="subForm" class="form">
 					    <div class="form-group">
-					        <input class="form-control" id="fieldName" name="cm-name" placeholder="Email" type="text" />
-					        <label for="fieldName"></label>
+					    	<label class="control-label" for="fieldName">Email</label>
+					        <input class="form-control" id="fieldName" name="cm-name" placeholder="" type="text" />
+					        
 					    </div>
 					    <div class="form-group">
-					        <input class="form-control" id="fieldEmail" name="cm-jtitij-jtitij" type="email" placeholder="Password" required />
-					        <label for="fieldEmail"></label>
+					    	<label class="control-label" for="fieldEmail">Password</label>
+					        <input class="form-control" id="fieldEmail" name="cm-jtitij-jtitij" type="email" placeholder="" required />    
 					    </div>
 					    <div class="checkbox">
 					    <label>

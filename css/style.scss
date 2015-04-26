@@ -16,6 +16,9 @@
 // add more css stuff here
 .content {
 }
+section:first-child .container {
+  padding-top:40px;
+}
 .bold {
 	font-weight: bold;
 }
@@ -259,8 +262,15 @@ table.dataTable.no-footer {
 
 //slidedown header
 .slide-down-header.hidden {
-  display: none;
+  top: -150px;
+}
+.slide-down-header.show {
+  top: 0px;
 }
 .slide-down-header {
-  transition: background-color 0.5s ease;
+  -webkit-transition: top 0.9s ease-in-out;
+  -moz-transition: top 0.9s ease-in-out;
+  -o-transition: top 0.9s ease-in-out;
+  -ms-transition: top 0.9s ease-in-out;
+  transition: top 0.9s ease-in;
 }

@@ -15,34 +15,40 @@ title:  'Sign Up'
 </section>
 <section>
 	<div class="container">
-		<div class="row">
+		<div class="row m-b-100">
 			<div class="col-md-6 col-md-offset-3">
 				<div class="panel p-30">
 					<div class="panel-body">
-					<h4 class="text-center">Insights for where your calls come from</h4>
+					<h4 class="text-center">Insights for What Makes Your Phone Ring</h4>
 					<p class="lead text-center">Start call tracking today.</p>
-					<form action="http://calltracker.createsend.com/t/i/s/jtitij/" method="post" id="subForm" class="form">
-					    <div class="form-group">
-					    	<label class="control-label" for="fieldName">Your Name</label>
-					        <input class="form-control" id="fieldName" name="cm-name" type="text" placeholder="" />
-					    </div>
-					    <div class="form-group">
-					    	<label class="control-label" for="fieldEmail">Your Email</label>
-					        <input class="form-control" id="fieldEmail" name="cm-jtitij-jtitij" type="email" placeholder="" required />
-					        
-					    </div>
-					    <div class="form-group">
-					    	<label class="control-label" for="fieldEmail">Company Name</label>
-					        <input class="form-control" id="fieldEmail" name="cm-jtitij-jtitij" type="email" placeholder="" required />
-					    </div>
-					    <div class="form-group">
-					    	<label class="control-label" for="fieldEmail">Password</label>
-					        <input class="form-control" id="password" name="cm-jtitij-jtitij" type="password" placeholder="" required />
-					    </div>
-					    <div class="form-group">
-					        <button type="submit" class="btn btn-primary btn-block">Create My Account</button>
-					    </div>
-					</form>
+					<form action="http://calltracker.createsend.com/t/i/s/jtitij/" method="post" id="subForm">
+						    <div class="form-group">
+						        <label class="control-label" for="fieldName">Name</label><br />
+						        <input class="form-control" id="fieldName" name="cm-name" type="text" required/>
+						    </div>
+						    <div class="form-group">
+						        <label class="control-label" for="fieldEmail">Email</label><br />
+						        <input class="form-control" id="fieldEmail" name="cm-jtitij-jtitij" type="email" required />
+						    </div>
+						    <div class="form-group">
+						        <label class="control-label" for="fieldwtrth">Company Name</label><br />
+						        <input class="form-control" id="fieldwtrth" name="cm-f-wtrth" type="text" required />
+						    </div>
+						    <div class="form-group">
+						        <label class="control-label" for="fieldwtrtt">Country</label><br />
+						        <select class="form-control" id="fieldwtrtt" name="cm-fo-wtrtt" required>
+						            <option value=""></option>
+						            <option value="301296">United States of America</option>
+						            <option value="301096">Canada</option>
+						            <option value="301295">United Kingdom</option> 
+						            <option value="301071">Austria</option>
+						            <option value="">Other</option>
+						        </select>
+						    </div>
+						    <div class="form-group">
+						        <button type="submit" class="btn btn-primary btn-block">Create My Account</button>
+						    </div>
+						</form>
 					</div>
 				</div>
 				<p class="text-center">By signing up you agree to <a href="#">Terms of Service</a> and the <a href="#">Privacy Policy</a>.</p>
@@ -50,7 +56,9 @@ title:  'Sign Up'
 		</div>
 	</div>
 </section>
+{% include features-section.html %}
 </div>
+{% include footer.html %}
 {% include javascript.html %}
 </body>
 </html>
