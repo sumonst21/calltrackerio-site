@@ -1,7 +1,7 @@
 ###########
 # site.url, site.title
 
-url:   'http://calltracker.io'
+url:   'https://calltracker.io'
 title: 'calltracker.io'
 name: 'Calltracker'
 
@@ -14,7 +14,8 @@ sass:
   sass_dir: css
   style:    expanded
 
-
+gems:
+  - jekyll-sitemap
 
 exclude:
 - README.md
