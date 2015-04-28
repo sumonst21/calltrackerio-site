@@ -1,6 +1,6 @@
 ---
 layout: base
-title:  'Sign Up'
+title:  'Contact Us'
 ---
 {% include header-no-nav.html %}
 <div class="content">
@@ -19,12 +19,30 @@ title:  'Sign Up'
 			<div class="col-md-6 col-md-offset-3">
 				<div class="panel p-30 text-center">
 					<div class="panel-body">
-						<form action="http://pooleapp.com/stash/2fccae48-0952-4b37-8c22-280e3b0b6cc4/" method="post">
-						  <input type="hidden" name="redirect_to" value="/thank-you.html" />
-						  <input type="text" name="name" />
-						  <input type="email" name="email" />
-						  <input type="text" name="message" />
-						  <input type="submit" value="submit" />
+						<form class="" action="https://getsimpleform.com/messages?form_api_token=1c0e9dfe4d2cfeb1fc7a65a6ae0f559d" method="post">
+						  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+						  <input type='hidden' name='redirect_to' value='{{site.url}}/thank-you.html' />
+						  <!-- all your input fields here.... -->
+						  	<div class="form-group">
+						        <label class="control-label" for="fieldName">Name</label><br />
+					  			<input class="form-control" type="text" name="name" required/>
+					  		</div>
+					  		<div class="form-group">
+					  			<label class="control-label" for="fieldEmail">Email</label><br />
+						  		<input class="form-control" type="email" name="email" required />
+						  	</div>
+						  	<div class="form-group">
+						        <label class="control-label" for="fieldCompany">Company</label><br />
+					  			<input class="form-control" type="text" name="company" required />
+					  		</div>
+					  		
+						  	<div class="form-group">
+
+						  		<textarea cols="40" rows="3" class="form-control" id="textArea" name="message" style="min-height:200px;"></textarea>
+						  	</div>
+						  	<div class="form-group">	
+								  <input class="btn btn-primary btn-block" type='submit' value='Contact Us' />
+							</div>
 						</form>
 					</div>
 				</div>
