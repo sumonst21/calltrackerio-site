@@ -189,7 +189,8 @@ body .progression-skin.progression-minimal-light .mejs-controls .mejs-horizontal
     color: #bbb;
 }
 
-textarea {
+.form-group.textarea-group {
+  height: auto;
   min-height:110px;
 }
 

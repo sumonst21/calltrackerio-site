@@ -17,8 +17,9 @@ title:  'Contact Us'
 	<div class="container">
 		<div class="row m-b-100">
 			<div class="col-md-6 col-md-offset-3">
-				<div class="panel p-30 text-center">
+				<div class="panel p-30">
 					<div class="panel-body">
+						<h4>Send Us a Message</h4>
 						<form class="" action="https://getsimpleform.com/messages?form_api_token=1c0e9dfe4d2cfeb1fc7a65a6ae0f559d" method="post">
 						  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
 						  <input type='hidden' name='redirect_to' value='{{site.url}}/thank-you.html' />
@@ -36,13 +37,11 @@ title:  'Contact Us'
 					  			<input class="form-control" type="text" name="company" required />
 					  		</div>
 					  		
-						  	<div class="form-group">
-
-						  		<textarea cols="40" rows="3" class="form-control" id="textArea" name="message" style="min-height:200px;"></textarea>
+						  	<div class="form-group textarea-group ">
+						  		<label class="control-label" for="fieldCompany">How can we help?</label><br />
+						  		<textarea cols="40" rows="3" class="form-control" id="textArea" name="message"></textarea>
 						  	</div>
-						  	<div class="form-group">	
-								  <input class="btn btn-primary btn-block" type='submit' value='Contact Us' />
-							</div>
+							<input class="btn btn-primary btn-block" type='submit' value='Contact Us' />
 						</form>
 					</div>
 				</div>
