@@ -4,383 +4,378 @@ title:  'Call Tracking, Phone Call Analytics by Call Tracker '
 sitemap: false
 ---
 {% include header-end-user.html %}
-<div class="content bg-light-grey">
+<div class="content">
 <section>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="panel">
-          <div class="panel-heading"></div>
-					<div class="panel-body">
-						<div class="row">
-							<div class="col-md-4 col-sm-4 text-center border-right">
-								<h5>Calls per Day</h5>
-								<p class="lead">29</p>
-							</div>
-							<div class="col-md-4 col-sm-4 text-center border-right">
-								<h5>Total Calls</h5>
-								<p class="lead">389</p>
-							</div>
-							<div class="col-md-4 col-sm-4 text-center">
-								<h5>Top Call Tracker</h5>
-								<p class="lead">Adwords Campaign</p>
-							</div>
-						</div>
-						<h5 class="chart-title">Calls Over Time</h5>
-						<div id="callsovertime"></div>
-					</div>
-				</div>
-				<div class="panel">
-          <div class="panel-heading"></div>
-					<div class="panel-body">
-						<table class="table table-hover table-condensed" id="all-calls" width="100%">
-                                      <thead>
-                                          <tr>
-                                              <th>
-                                              	
-                                              </th>
-                                              <th >
-                                                 Caller Name
-                                              </th>
-                                              <th>
-                                                Phone Number
-                                              </th>
-                                              <th>
-                                                  Tracking Number
-                                              </th>
-                                              <th>
-                                                  Date
-                                              </th>
-                                              <th>
-                                                  City
-                                              </th>
-                                              <th>
-                                                Duration
-                                              </th>
-                                              <th>
-                                                  Details
-                                              </th>
-                                          </tr>
-                                      </thead>
-                                      <tbody>
-                                          <!-- row -->
-                                          <tr class="first">
-                                            <td>
-                                              <span class="info-bubble info-bubble-small" title="Recieved Call" placement="top"><i class="md-call-received text-success bold fa-lg"></i></span>
-                                            </td>
-                                            <td>
-                                              <a href="call-details.html">John Doe</a>
-                                            </td>
-                                              <td>
-                                                877-786-2094
-                                              </td>
-                                              <td>
-                                                  Keyword Tracker
-                                              </td>
-                                              <td>
-                                                  3/15/2014 12:57 PM
-                                              </td>
-                                              <td>
-                                                  Walnut Creek, CA
-                                              </td>
-                                              <td>
-                                                2m 28s
-                                              </td>
-                                              <td>
-                                                  <a href="call-details.html" class="btn btn-xs btn-primary">Details</a>
-                                              </td>
-                                          </tr>
-                                          <tr>
-                                            <td>
-                                              <span class="info-bubble info-bubble-small" title="Abandoned Call" placement="top"><i class="md-call-received bold fa-lg"></i></span>
-                                            </td>
-                                            <td>
-                                              <a href="pronto-insights-leads-details-r2.html">Jane Doe</a>
-                                            </td>
-                                              <td>
-                                                877-786-2094
-                                              </td>
-                                              <td>
-                                                  Direct Mail Promotion
-                                              </td>
-                                              <td>
-                                                  3/15/2014 12:57 PM
-                                              </td>
-                                              <td>
-                                                  Walnut Creek, CA
-                                              </td>
-                                              <td>
-                                                1m 48s
-                                              </td>
-                                              <td>
-                                                  <a href="call-details.html" class="btn btn-xs btn-primary">Details</a>
-                                              </td>
-                                          </tr>
-                                          <tr>
-                                            <td>
-                                              <span class="info-bubble info-bubble-small" title="Recieved Call" placement="top"><i class="md-call-received text-success bold fa-lg"></i></span>
-                                            </td>
-                                            <td>
-                                              <a href="call-details.html">Jennifer Gizzi</a>
-                                            </td>
-                                              <td>
-                                                877-786-2094
-                                              </td>
-                                              <td>
-                                                  Facebook Advert
-                                              </td>
-                                              <td>
-                                                  3/15/2014 12:57 PM
-                                              </td>
-                                              <td>
-                                                  San Diego, CA
-                                              </td>
-                                              <td>
-                                                3m 58s
-                                              </td>
-                                              <td>
-                                                <a href="call-details.html" class="btn btn-xs btn-primary">Details</a>
-                                              </td>
-                                          </tr>
-                                          <tr>
-                                            <td>
-                                              <span class="info-bubble info-bubble-small" title="Recieved Call" placement="top"><i class="md-call-received text-success bold fa-lg"></i></span>
-                                            </td>
-                                            <td>
-                                              <a href="call-details.html">John Doe</a>
-                                            </td>
-                                              <td>
-                                                877-786-2094
-                                              </td>
-                                              <td>
-                                                  Keyword Tracker
-                                              </td>
-                                              <td>
-                                                  3/15/2014 12:57 PM
-                                              </td>
-                                              <td>
-                                                  Walnut Creek, CA
-                                              </td>
-                                              <td>
-                                                2m 28s
-                                              </td>
-                                              <td>
-                                                <a href="call-details.html" class="btn btn-xs btn-primary">Details</a>
-                                              </td>
-                                          </tr>
-                                          <tr>
-                                            <td>
-                                              <span class="info-bubble info-bubble-small" title="Missed Call" placement="top"><i class="md-call-missed text-danger bold fa-lg"></i></span>
-                                            </td>
-                                            <td>
-                                              <a href="call-details.html">Jane Doe</a>
-                                            </td>
-                                              <td>
-                                                877-786-2094
-                                              </td>
-                                              <td>
-                                                  Keyword Tracker
-                                              </td>
-                                              <td>
-                                                  3/15/2014 12:57 PM
-                                              </td>
-                                              <td>
-                                                  Walnut Creek, CA
-                                              </td>
-                                              <td>
-                                                1m 48s
-                                              </td>
-                                              <td>
-                                                  <a href="call-details.html" class="btn btn-xs btn-primary">Details</a>
-                                              </td>
-                                          </tr>
-                                          <tr>
-                                            <td>
-                                              <span class="info-bubble info-bubble-small" title="Recieved Call" placement="top"><i class="md-call-received text-success bold fa-lg"></i></span>
-                                            </td>
-                                            <td>
-                                              <a href="call-details.html">Jennifer Gizzi</a>
-                                            </td>
-                                              <td>
-                                                877-786-2094
-                                              </td>
-                                              <td>
-                                                  Direct
-                                              </td>
-                                              <td>
-                                                  3/15/2014 12:57 PM
-                                              </td>
-                                              <td>
-                                                  Keyword Tracker
-                                              </td>
-                                              <td>
-                                                3m 58s
-                                              </td>
-                                              <td>
-                                                  <a href="call-details.html" class="btn btn-xs btn-primary">Details</a>
-                                              </td>
-                                          </tr>
-                                          <tr>
-                                            <td>
-                                              <span class="info-bubble info-bubble-small" title="Recieved Call" placement="top"><i class="md-call-received text-success bold fa-lg"></i></span>
-                                            </td>
-                                            <td>
-                                              <a href="call-details.html">John Doe</a>
-                                            </td>
-                                              <td>
-                                                877-786-2094
-                                              </td>
-                                              <td>
-                                                  Keyword Tracker
-                                              </td>
-                                              <td>
-                                                  3/15/2014 12:57 PM
-                                              </td>
-                                              <td>
-                                                  Walnut Creek, CA
-                                              </td>
-                                              <td>
-                                                2m 28s
-                                              </td>
-                                              <td>
-                                                  <a href="call-details.html" class="btn btn-xs btn-primary">Details</a>
-                                              </td>
-                                          </tr>
-                                          <tr>
-                                            <td>
-                                              <span class="info-bubble info-bubble-small" title="Abandoned Call" placement="top"><i class="md-call-received bold fa-lg"></i></span>
-                                            </td>
-                                            <td>
-                                              <a href="pronto-insights-leads-details-r2.html">Jane Doe</a>
-                                            </td>
-                                              <td>
-                                                877-786-2094
-                                              </td>
-                                              <td>
-                                                  Direct Mail Promotion
-                                              </td>
-                                              <td>
-                                                  3/15/2014 12:57 PM
-                                              </td>
-                                              <td>
-                                                  Walnut Creek, CA
-                                              </td>
-                                              <td>
-                                                1m 48s
-                                              </td>
-                                              <td>
-                                                  <a href="call-details.html" class="btn btn-xs btn-primary">Details</a>
-                                              </td>
-                                          </tr>
-                                          <tr>
-                                            <td>
-                                              <span class="info-bubble info-bubble-small" title="Recieved Call" placement="top"><i class="md-call-received text-success bold fa-lg"></i></span>
-                                            </td>
-                                            <td>
-                                              <a href="call-details.html">Jennifer Gizzi</a>
-                                            </td>
-                                              <td>
-                                                877-786-2094
-                                              </td>
-                                              <td>
-                                                  Facebook Advert
-                                              </td>
-                                              <td>
-                                                  3/15/2014 12:57 PM
-                                              </td>
-                                              <td>
-                                                  San Diego, CA
-                                              </td>
-                                              <td>
-                                                3m 58s
-                                              </td>
-                                              <td>
-                                                <a href="call-details.html" class="btn btn-xs btn-primary">Details</a>
-                                              </td>
-                                          </tr>
-                                          <tr>
-                                            <td>
-                                              <span class="info-bubble info-bubble-small" title="Recieved Call" placement="top"><i class="md-call-received text-success bold fa-lg"></i></span>
-                                            </td>
-                                            <td>
-                                              <a href="call-details.html">John Doe</a>
-                                            </td>
-                                              <td>
-                                                877-786-2094
-                                              </td>
-                                              <td>
-                                                  Keyword Tracker
-                                              </td>
-                                              <td>
-                                                  3/15/2014 12:57 PM
-                                              </td>
-                                              <td>
-                                                  Walnut Creek, CA
-                                              </td>
-                                              <td>
-                                                2m 28s
-                                              </td>
-                                              <td>
-                                                <a href="call-details.html" class="btn btn-xs btn-primary">Details</a>
-                                              </td>
-                                          </tr>
-                                          <tr>
-                                            <td>
-                                              <span class="info-bubble info-bubble-small" title="Missed Call" placement="top"><i class="md-call-missed text-danger bold fa-lg"></i></span>
-                                            </td>
-                                            <td>
-                                              <a href="call-details.html">Jane Doe</a>
-                                            </td>
-                                              <td>
-                                                877-786-2094
-                                              </td>
-                                              <td>
-                                                  Keyword Tracker
-                                              </td>
-                                              <td>
-                                                  3/15/2014 12:57 PM
-                                              </td>
-                                              <td>
-                                                  Walnut Creek, CA
-                                              </td>
-                                              <td>
-                                                1m 48s
-                                              </td>
-                                              <td>
-                                                  <a href="call-details.html" class="btn btn-xs btn-primary">Details</a>
-                                              </td>
-                                          </tr>
-                                          <tr>
-                                            <td>
-                                              <span class="info-bubble info-bubble-small" title="Recieved Call" placement="top"><i class="md-call-received text-success bold fa-lg"></i></span>
-                                            </td>
-                                            <td>
-                                              <a href="call-details.html">Jennifer Gizzi</a>
-                                            </td>
-                                              <td>
-                                                877-786-2094
-                                              </td>
-                                              <td>
-                                                  Direct
-                                              </td>
-                                              <td>
-                                                  3/15/2014 12:57 PM
-                                              </td>
-                                              <td>
-                                                  Keyword Tracker
-                                              </td>
-                                              <td>
-                                                3m 58s
-                                              </td>
-                                              <td>
-                                                  <a href="call-details.html" class="btn btn-xs btn-primary">Details</a>
-                                              </td>
-                                          </tr>
-                                      </tbody>
-                                  </table>
-					</div>
-				</div>
-			</div>
+        <div class="row">
+          <div class="col-md-4 col-sm-4 text-center border-right">
+            <h5>Calls per Day</h5>
+            <p class="lead">29</p>
+          </div>
+          <div class="col-md-4 col-sm-4 text-center border-right">
+            <h5>Total Calls</h5>
+            <p class="lead">389</p>
+          </div>
+          <div class="col-md-4 col-sm-4 text-center">
+            <h5>Top Call Tracker</h5>
+            <p class="lead">Adwords Campaign</p>
+          </div>
+        </div>
+        <h5 class="chart-title">Calls Over Time</h5>
+        <div id="callsovertime"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+          <table class="table table-hover table-condensed" id="all-calls" width="100%">
+              <thead>
+                  <tr>
+                      <th>
+                        
+                      </th>
+                      <th >
+                         Caller Name
+                      </th>
+                      <th>
+                        Phone Number
+                      </th>
+                      <th>
+                          Tracking Number
+                      </th>
+                      <th>
+                          Date
+                      </th>
+                      <th>
+                          City
+                      </th>
+                      <th>
+                        Duration
+                      </th>
+                      <th>
+                          Details
+                      </th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <!-- row -->
+                  <tr class="first">
+                    <td>
+                      <span class="info-bubble info-bubble-small" title="Recieved Call" placement="top"><i class="md-call-received text-success bold fa-lg"></i></span>
+                    </td>
+                    <td>
+                      <a href="call-details.html">John Doe</a>
+                    </td>
+                      <td>
+                        877-786-2094
+                      </td>
+                      <td>
+                          Keyword Tracker
+                      </td>
+                      <td>
+                          3/15/2014 12:57 PM
+                      </td>
+                      <td>
+                          Walnut Creek, CA
+                      </td>
+                      <td>
+                        2m 28s
+                      </td>
+                      <td>
+                          <a href="call-details.html" class="btn btn-xs btn-primary">Details</a>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="info-bubble info-bubble-small" title="Abandoned Call" placement="top"><i class="md-call-received bold fa-lg"></i></span>
+                    </td>
+                    <td>
+                      <a href="pronto-insights-leads-details-r2.html">Jane Doe</a>
+                    </td>
+                      <td>
+                        877-786-2094
+                      </td>
+                      <td>
+                          Direct Mail Promotion
+                      </td>
+                      <td>
+                          3/15/2014 12:57 PM
+                      </td>
+                      <td>
+                          Walnut Creek, CA
+                      </td>
+                      <td>
+                        1m 48s
+                      </td>
+                      <td>
+                          <a href="call-details.html" class="btn btn-xs btn-primary">Details</a>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="info-bubble info-bubble-small" title="Recieved Call" placement="top"><i class="md-call-received text-success bold fa-lg"></i></span>
+                    </td>
+                    <td>
+                      <a href="call-details.html">Jennifer Gizzi</a>
+                    </td>
+                      <td>
+                        877-786-2094
+                      </td>
+                      <td>
+                          Facebook Advert
+                      </td>
+                      <td>
+                          3/15/2014 12:57 PM
+                      </td>
+                      <td>
+                          San Diego, CA
+                      </td>
+                      <td>
+                        3m 58s
+                      </td>
+                      <td>
+                        <a href="call-details.html" class="btn btn-xs btn-primary">Details</a>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="info-bubble info-bubble-small" title="Recieved Call" placement="top"><i class="md-call-received text-success bold fa-lg"></i></span>
+                    </td>
+                    <td>
+                      <a href="call-details.html">John Doe</a>
+                    </td>
+                      <td>
+                        877-786-2094
+                      </td>
+                      <td>
+                          Keyword Tracker
+                      </td>
+                      <td>
+                          3/15/2014 12:57 PM
+                      </td>
+                      <td>
+                          Walnut Creek, CA
+                      </td>
+                      <td>
+                        2m 28s
+                      </td>
+                      <td>
+                        <a href="call-details.html" class="btn btn-xs btn-primary">Details</a>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="info-bubble info-bubble-small" title="Missed Call" placement="top"><i class="md-call-missed text-danger bold fa-lg"></i></span>
+                    </td>
+                    <td>
+                      <a href="call-details.html">Jane Doe</a>
+                    </td>
+                      <td>
+                        877-786-2094
+                      </td>
+                      <td>
+                          Keyword Tracker
+                      </td>
+                      <td>
+                          3/15/2014 12:57 PM
+                      </td>
+                      <td>
+                          Walnut Creek, CA
+                      </td>
+                      <td>
+                        1m 48s
+                      </td>
+                      <td>
+                          <a href="call-details.html" class="btn btn-xs btn-primary">Details</a>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="info-bubble info-bubble-small" title="Recieved Call" placement="top"><i class="md-call-received text-success bold fa-lg"></i></span>
+                    </td>
+                    <td>
+                      <a href="call-details.html">Jennifer Gizzi</a>
+                    </td>
+                      <td>
+                        877-786-2094
+                      </td>
+                      <td>
+                          Direct
+                      </td>
+                      <td>
+                          3/15/2014 12:57 PM
+                      </td>
+                      <td>
+                          Keyword Tracker
+                      </td>
+                      <td>
+                        3m 58s
+                      </td>
+                      <td>
+                          <a href="call-details.html" class="btn btn-xs btn-primary">Details</a>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="info-bubble info-bubble-small" title="Recieved Call" placement="top"><i class="md-call-received text-success bold fa-lg"></i></span>
+                    </td>
+                    <td>
+                      <a href="call-details.html">John Doe</a>
+                    </td>
+                      <td>
+                        877-786-2094
+                      </td>
+                      <td>
+                          Keyword Tracker
+                      </td>
+                      <td>
+                          3/15/2014 12:57 PM
+                      </td>
+                      <td>
+                          Walnut Creek, CA
+                      </td>
+                      <td>
+                        2m 28s
+                      </td>
+                      <td>
+                          <a href="call-details.html" class="btn btn-xs btn-primary">Details</a>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="info-bubble info-bubble-small" title="Abandoned Call" placement="top"><i class="md-call-received bold fa-lg"></i></span>
+                    </td>
+                    <td>
+                      <a href="pronto-insights-leads-details-r2.html">Jane Doe</a>
+                    </td>
+                      <td>
+                        877-786-2094
+                      </td>
+                      <td>
+                          Direct Mail Promotion
+                      </td>
+                      <td>
+                          3/15/2014 12:57 PM
+                      </td>
+                      <td>
+                          Walnut Creek, CA
+                      </td>
+                      <td>
+                        1m 48s
+                      </td>
+                      <td>
+                          <a href="call-details.html" class="btn btn-xs btn-primary">Details</a>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="info-bubble info-bubble-small" title="Recieved Call" placement="top"><i class="md-call-received text-success bold fa-lg"></i></span>
+                    </td>
+                    <td>
+                      <a href="call-details.html">Jennifer Gizzi</a>
+                    </td>
+                      <td>
+                        877-786-2094
+                      </td>
+                      <td>
+                          Facebook Advert
+                      </td>
+                      <td>
+                          3/15/2014 12:57 PM
+                      </td>
+                      <td>
+                          San Diego, CA
+                      </td>
+                      <td>
+                        3m 58s
+                      </td>
+                      <td>
+                        <a href="call-details.html" class="btn btn-xs btn-primary">Details</a>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="info-bubble info-bubble-small" title="Recieved Call" placement="top"><i class="md-call-received text-success bold fa-lg"></i></span>
+                    </td>
+                    <td>
+                      <a href="call-details.html">John Doe</a>
+                    </td>
+                      <td>
+                        877-786-2094
+                      </td>
+                      <td>
+                          Keyword Tracker
+                      </td>
+                      <td>
+                          3/15/2014 12:57 PM
+                      </td>
+                      <td>
+                          Walnut Creek, CA
+                      </td>
+                      <td>
+                        2m 28s
+                      </td>
+                      <td>
+                        <a href="call-details.html" class="btn btn-xs btn-primary">Details</a>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="info-bubble info-bubble-small" title="Missed Call" placement="top"><i class="md-call-missed text-danger bold fa-lg"></i></span>
+                    </td>
+                    <td>
+                      <a href="call-details.html">Jane Doe</a>
+                    </td>
+                      <td>
+                        877-786-2094
+                      </td>
+                      <td>
+                          Keyword Tracker
+                      </td>
+                      <td>
+                          3/15/2014 12:57 PM
+                      </td>
+                      <td>
+                          Walnut Creek, CA
+                      </td>
+                      <td>
+                        1m 48s
+                      </td>
+                      <td>
+                          <a href="call-details.html" class="btn btn-xs btn-primary">Details</a>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="info-bubble info-bubble-small" title="Recieved Call" placement="top"><i class="md-call-received text-success bold fa-lg"></i></span>
+                    </td>
+                    <td>
+                      <a href="call-details.html">Jennifer Gizzi</a>
+                    </td>
+                      <td>
+                        877-786-2094
+                      </td>
+                      <td>
+                          Direct
+                      </td>
+                      <td>
+                          3/15/2014 12:57 PM
+                      </td>
+                      <td>
+                          Keyword Tracker
+                      </td>
+                      <td>
+                        3m 58s
+                      </td>
+                      <td>
+                          <a href="call-details.html" class="btn btn-xs btn-primary">Details</a>
+                      </td>
+                  </tr>
+              </tbody>
+          </table>
+        </div>
+      </div>
 		
 		</div>
 	</div>
@@ -393,7 +388,7 @@ sitemap: false
 var chart = c3.generate({
         bindto: '#callsovertime',
         data: {
-            type: 'bar',
+            type: 'area-spline',
               colors: {
                 NoData: '#ececec',
             },
