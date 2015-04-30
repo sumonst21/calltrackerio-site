@@ -5,7 +5,6 @@ sitemap: false
 ---
 {% include header-end-user.html %}
 <div class="content">
-<section>
 	<div class="container">
 		<!--<div class="row">
 			<div class="col-md-12">
@@ -26,6 +25,15 @@ sitemap: false
       </div>
     </div>-->
     <div class="row">
+      <div class="col-md-12">
+        <ul class="nav nav-tabs border-bottom-grey" role="tablist">
+          <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">John's Computer's</a></li>
+          <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Tracking Numbers</a></li>
+          <li class="pull-right" role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row m-t-20">
       <div class="col-md-8">  
         <h5 class="chart-title">Calls Over Time</h5>
         <div id="callsovertime"></div>
@@ -388,9 +396,7 @@ sitemap: false
 		
 		</div>
 	</div>
-</section>
 </div>
-{% include footer.html %}
 {% include javascript.html %}
 {% include chart-colors.html %}
 <script type="text/javascript">
@@ -534,27 +540,24 @@ var chart = c3.generate({
 </script>
 <script type="text/javascript">
 $(document).ready(function(){
-                //Basic Example
-$('#all-calls').DataTable({
-	"dom": 'lCfrtip',
-	"order": [],
-	"colVis": {
-		"buttonText": "Columns",
-		"overlayFade": 0,
-		"align": "right"
-	},
-	"language": {
-		"lengthMenu": '_MENU_ entries per page',
-		"search": '<i class="md md-search"></i> ',
-		"paginate": {
-			"previous": '<i class="md md-keyboard-arrow-left"></i>',
-			"next": '<i class="md md-keyboard-arrow-right"></i>'
-		}
-	}
+  $('#all-calls').DataTable({
+  	"dom": 'lCfrtip',
+  	"order": [],
+  	"colVis": {
+  		"buttonText": "Columns",
+  		"overlayFade": 0,
+  		"align": "right"
+  	},
+  	"language": {
+  		"lengthMenu": '_MENU_ entries per page',
+  		"search": '<i class="md md-search"></i> ',
+  		"paginate": {
+  			"previous": '<i class="md md-keyboard-arrow-left"></i>',
+  			"next": '<i class="md md-keyboard-arrow-right"></i>'
+  		}
+  	}
+  });
 });
-});
-
-
 </script>
 </body>
 </html>
