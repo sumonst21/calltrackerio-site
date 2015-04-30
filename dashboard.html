@@ -23,9 +23,18 @@ sitemap: false
             <p class="lead">Adwords Campaign</p>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">  
         <h5 class="chart-title">Calls Over Time</h5>
         <div id="callsovertime"></div>
       </div>
+      <div class="col-md-4">  
+        <h5 class="chart-title">Call Answer Rate</h5>
+        <div id="donutcallstatus"></div>
+      </div>
+    </div>
       <div class="row">
         <div class="col-md-12">
           <hr>
@@ -388,7 +397,7 @@ sitemap: false
 var chart = c3.generate({
         bindto: '#callsovertime',
         data: {
-            type: 'area-spline',
+            type: 'bar',
               colors: {
                 NoData: '#ececec',
             },
@@ -441,6 +450,9 @@ var chart = c3.generate({
               }
             }
         },
+        size: {
+          height: 270
+        },
         tooltip: {
           contents: function(d, defaultTitleFormat, defaultValueFormat, color) {
             var defaultTitleFormat = d3.time.format("%B %d, %Y");
@@ -463,6 +475,62 @@ var chart = c3.generate({
           },
         },
     });
+</script>
+<script>
+    (function (){  
+      c3.generate({
+        bindto: '#donutcallstatus',
+         data: {  
+          columns: [
+                ['Answered',24],
+                ['Missed',13],
+                ['Abandoned',10],
+          ],
+          type : 'donut',
+          colors: {
+              NoData: '#ececec',
+          },
+          labels: {
+//            format: function (v, id) { return "Default Format on " + id; },
+            format: {
+              value: function (d) { return d; },
+            }
+        }
+        },
+        legend: {
+          position: 'bottom',
+          format: {
+              value: function (d) { return d; },
+            }
+        },
+        size: {
+          height: 270
+        },
+//      donut: {
+//        label: {
+//              show: true
+//                format: function (value, ratio, id) {
+//                  return (value);
+//                }
+//          },
+//          title: "62",
+//          width: 38
+//      },
+        color: {
+          pattern: calltracker_charts_style
+        },
+        tooltip: {
+          format: {
+              value: function (d) { return d; },
+  //            value: d3.format(',') // apply this format to both y and y2
+          },
+        } 
+      });
+      var label = d3.select('#donutcallstatus text.c3-chart-arcs-title');
+          label.html(''); // remove existant text
+          label.insert('tspan').text('389').attr('dy', 0).attr('x', 0).attr('class','donut-xl-font');
+          label.insert('tspan').text('Calls').attr('dy', 20).attr('x', 0);
+    })();
 </script>
 <script type="text/javascript">
 $(document).ready(function(){
