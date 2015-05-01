@@ -273,6 +273,14 @@ table.dataTable.no-footer {
   color: #ffffff !important;
 }
 
+// hompage
+.hero-img-mockup {
+  height: 500px;
+  overflow: hidden;
+}
+.hero-img-mockup img {
+  max-width: 740px;
+}
 
 //slidedown header
 .slide-down-header.hidden {
