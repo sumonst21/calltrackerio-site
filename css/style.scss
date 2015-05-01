@@ -261,9 +261,13 @@ table.dataTable.no-footer {
 }
 
 .segment-hero {
-  background: url(../images/macpro-dashboard.jpg) no-repeat;
+  background: #1f2c39;
   min-height: 600px;
   background-size: cover;
+  color: #ffffff !important;
+}
+.segment-hero h2 {
+  color: #fff;
 }
 
 .segment-primary {
