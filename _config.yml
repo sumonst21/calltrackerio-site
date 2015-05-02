@@ -6,7 +6,7 @@ relative_permalinks: true
 # site.url, site.title
 
 url:   'https://calltracker.io'
-title: 'calltracker.io'
+title: 'CALLTRACKER'
 name: 'Calltracker'
 paginate:            1
 baseurl:             ""
