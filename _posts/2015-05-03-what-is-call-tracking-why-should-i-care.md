@@ -21,10 +21,10 @@ Until recently it's been virtually unknown to marketers what marketing campaign 
 
 ##### Some quick stats
 
-* 88% of consumers who search for a type of local business on a mobile device call or go to that business within 24 hours. [Google Mobile Movement Study](http://googlemobileads.blogspot.com/2011/04/smartphone-user-study-shows-mobile.html)
+* 88% of consumers who search for a type of local business on a mobile device call or go to that business within 24 hours. [Google Mobile Movement Study](http://googlemobileads.blogspot.com/2011/04/smartphone-user-study-shows-mobile.html){:target="_blank"}
 
  * 95 percent of smartphone users have used their phone to look up local information. 
-   * **After doing so, 61 percent called.** [Forbes](http://www.forbes.com/sites/cherylsnappconner/2013/11/12/fifty-essential-mobile-marketing-facts/)
+   * **After doing so, 61 percent called.** [Forbes](http://www.forbes.com/sites/cherylsnappconner/2013/11/12/fifty-essential-mobile-marketing-facts/){:target="_blank"}
 
 With the number of mobile searches ever increasing, it's becomming more and more important understand how people got your phone number before they called, and that's just for web marketing.
 
