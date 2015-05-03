@@ -15,7 +15,7 @@ layout: base
       </div>
     </div>
     <h3 class="bold text-center post-title">{{ page.title }}</h3>
-    <p class="text-center"><img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=40" class="img-circle">
+    <p class="text-center"><img src="//www.gravatar.com/avatar/{{ author.gravatar }}?s=40" class="img-circle">
     <span class="author">{{ author.display_name }}</span> wrote this on <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date: '%B %d, %Y' }}</time></p>
     {{ content }}
   </article>
