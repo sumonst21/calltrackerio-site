@@ -25,6 +25,8 @@ Until recently it's been virtually unknown to marketers what marketing campaign 
  * 95 percent of smartphone users have used their phone to look up local information. 
    * **After doing so, 61 percent called.** [Forbes](http://www.forbes.com/sites/cherylsnappconner/2013/11/12/fifty-essential-mobile-marketing-facts/)
 
+With the number of mobile searches ever increasing, it's becomming more and more important understand how people got your phone number before they called, and that's just for web marketing.
+
 ##### Bridging the gap
 
 Simply put, Call tracking allows you to fill in the gaps of your lead generation. Call tracking allows you to easily purchase local or toll free numbers that can be used across your marketing campaigns, like billboards, newspaper ads, website landing pages, and then forward the callers to your actual phone number. 
