@@ -10,19 +10,19 @@ Over the last decade there has been an enormous amount of focus on digital marke
 
 At the same time, most businesses are actively advertising through many differen't channels that may or may not be easy to track as web leads are. There has been however, one primary lead conversion channel that's alluded almost every marketer through all of this, **phone calls**.
 
-##### Some quick stats
-
-* 88% of consumers who search for a type of local business on a mobile device call or go to that business within 24 hours. [Google Mobile Movement Study](http://googlemobileads.blogspot.com/2011/04/smartphone-user-study-shows-mobile.html)
-
- * 95 percent of smartphone users have used their phone to look up local information. 
-   * **After doing so, 61 percent called.** [Forbes](http://www.forbes.com/sites/cherylsnappconner/2013/11/12/fifty-essential-mobile-marketing-facts/)
-
 ##### The Marketer's big blind spot
 
  * What about the leads who called instead of submitting a form? (ie, most of them)
  * What if I do offline advertising on a billboard or a newspaper ad, how do I track that?
 
 Until recently it's been virtually unknown to marketers what marketing campaign a sales leads came if the called. Then if a marketer needs to understand the effectiveness of their marketing campaigns they aren't able attribute any phone call into their ROI.
+
+##### Some quick stats
+
+* 88% of consumers who search for a type of local business on a mobile device call or go to that business within 24 hours. [Google Mobile Movement Study](http://googlemobileads.blogspot.com/2011/04/smartphone-user-study-shows-mobile.html)
+
+ * 95 percent of smartphone users have used their phone to look up local information. 
+   * **After doing so, 61 percent called.** [Forbes](http://www.forbes.com/sites/cherylsnappconner/2013/11/12/fifty-essential-mobile-marketing-facts/)
 
 ##### Bridging the gap
 
