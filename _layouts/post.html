@@ -1,18 +1,20 @@
 ---
 layout: base
 ---
-{% include header.html %}
 {% assign author = site.authors[page.author] %}
+{% include header.html %}
 <div class="content">
 <section>
   <div class="container">
   <article class="post col-md-8 col-md-offset-2">
     <div class="row">
       <div class="col-md-12">
-        <img src="{{ page.image }}" />
+        <div class="focal-point">
+          <div><img class="img-responsive" src="{{ page.image }}" /></div>
+        </div>
       </div>
     </div>
-    <h1 class="post-title">{{ page.title }}</h1>
+    <h3 class="bold post-title">{{ page.title }}</h3>
     <p><img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=40" class="img-circle">
     <span class="author">{{ author.display_name }}</span> wrote this on <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date: '%B %d, %Y' }}</time></p>
     {{ content }}
