@@ -29,7 +29,7 @@ With the number of mobile searches ever increasing, it's becomming more and more
 
 ##### Bridging the gap
 
-Simply put, Call tracking allows you to fill in the gaps of your lead generation. Call tracking allows you to easily purchase local or toll free numbers that can be used across your marketing campaigns, like billboards, newspaper ads, website landing pages, and then forward the callers to your actual phone number. 
+Simply put, Call tracking allows you to fill in the gaps in your lead generation and conversion funnel. Call tracking allows you to easily purchase local or toll free numbers that can be used across your marketing campaigns, like billboards, newspaper ads, website landing pages, and then forward the callers to your actual phone number. 
 
 Call tracking then records the campaign that each caller came from, giving you the marketing source attribution data. Now that you know where exactly conversions originated, you can accurately measure your ROI – and ultimately this is going to help streamline your marketing budget. 
 
