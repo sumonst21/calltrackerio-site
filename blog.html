@@ -2,7 +2,7 @@
 layout: base
 title: 'Archive'
 ---
-{% include header-no-nav.html %}
+{% include header.html %}
 <div class="content">
 <section>
   <div class="container">
@@ -15,8 +15,9 @@ title: 'Archive'
 			 		<img src="{{ post.image }}" class="img-responsive" />
 			 		<h3 class="bold">{{ post.title }}</h3>
 			 	</a>	
-			 		<p><small class="text-muted">{{ post.date | date_to_string }}</small> by <img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=40" class="img-circle"> {{ author.display_name }}</p>
-		          	<p>{{ post.excerpt }}<a href="{{ post.url }}">Read more...</a></p>
+			 		<p><small class="text-muted"></small><img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=40" class="img-circle"> {{ author.display_name }} on {{ post.date | date: '%B %d, %Y' }}</p>
+		          	<p>{{ post.excerpt }}</p>
+		          	<p><a href="{{ post.url }}" class="btn btn-inverse">Read more...</a></p>
 			 </div>
 			 <hr>
 			{% endfor %}

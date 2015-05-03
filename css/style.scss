@@ -36,7 +36,9 @@ section:first-child .container {
 .border-right {
 	border-right:solid 1px #eee;
 }
-
+.btn-inverse {
+  border: 2px solid #1D93F0;
+}
 a:hover, a:focus {
 	color: $brand-primary;
 }
@@ -301,6 +303,17 @@ table.dataTable.no-footer {
 }
 .hero-img-mockup img {
   max-width: 740px;
+  opacity: .35;
+}
+.hero-img-mockup img:hover {
+  opacity: .9;
+  transition: opacity .9s ease-in-out;
+    -moz-transition: opacity .9s ease-in-out;
+    -webkit-transition: opacity .9s ease-in-out;
+    -o-transition: opacity .9s ease-in-out;
+}
+.request-button {
+  margin-top: -800px;
 }
 
 //slidedown header
