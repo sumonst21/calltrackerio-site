@@ -1,7 +1,8 @@
 ---
 layout: base
 ---
-{% include header-no-nav.html %}
+{% include header.html %}
+{% assign author = site.authors[page.author] %}
 <div class="content">
 <section>
   <div class="container">
@@ -12,9 +13,27 @@ layout: base
       </div>
     </div>
     <h1 class="post-title">{{ page.title }}</h1>
-    <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
+    <p><img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=40" class="img-circle">
+    <span class="author">{{ author.display_name }}</span> wrote this on <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date: '%B %d, %Y' }}</time></p>
     {{ content }}
   </article>
+  <div class="comments m-t-40">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES * * */
+            var disqus_shortname = 'calltracker';
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+      </div>
+    </div>
+  </div>
   </div>
 </section>  
 </div>
