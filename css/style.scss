@@ -278,6 +278,10 @@ table.dataTable.no-footer {
 	border: none;
 }
 
+.dataTables_wrapper .dataTables_filter input[type="search"] {
+  width: 300px;
+}
+
 .segment-hero {
   background: #1f2c39;
   min-height: 600px;
