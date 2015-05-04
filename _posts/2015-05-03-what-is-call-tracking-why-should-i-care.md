@@ -17,7 +17,7 @@ At the same time, most businesses are actively advertising through many differen
  * What about the leads who called instead of submitting a form? (ie, most of them)
  * What if I do offline advertising on a billboard or a newspaper ad, how do I track that?
 
-Until recently it's been virtually unknown to marketers what marketing campaign a sales leads came if the called. Then if a marketer needs to understand the effectiveness of their marketing campaigns they aren't able attribute any phone call into their ROI.
+Until recently it's been virtually unknown to marketers what marketing campaign a sales leads came if they did the most natural thing, make a phone call. Then if a marketer needs to understand the effectiveness of their marketing campaigns they aren't able attribute any phone call into their ROI.
 
 ##### Some quick stats
 
