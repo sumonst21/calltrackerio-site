@@ -467,6 +467,15 @@ table.dataTable.no-footer {
 .no-float {
     float: none !important;
 }
+
+.timeline > li.timeline-inverted {
+  top:-62px;
+}
+
+.timeline > li.top-timeline-panel .timeline-badge {
+  display: none;
+}
+
 @media (max-width: 767px) {
     ul.timeline:before {
         left: 40px;
@@ -511,5 +520,11 @@ table.dataTable.no-footer {
     }
     .timeline > li.timeline-inverted > .timeline-badge {
         left: 28px;
+    }
+    .timeline > li.top-timeline-panel {
+      top:initial;
+    }
+    .timeline > li.top-timeline-panel .timeline-badge {
+      display: initial;
     }
 }
