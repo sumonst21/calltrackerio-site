@@ -15,7 +15,7 @@ title: 'Archive'
 			 		<img src="{{ post.image }}" class="img-responsive" />
 			 		<h3 class="bold">{{ post.title }}</h3>
 			 	</a>	
-			 		<p><small class="text-muted"></small><img src="//www.gravatar.com/avatar/{{ author.gravatar }}?s=40" class="img-circle"> {{ author.display_name }} on {{ post.date | date: '%B %d, %Y' }}, {{ post.category }}</p>
+			 		<p><small class="text-muted"></small><img src="//www.gravatar.com/avatar/{{ author.gravatar }}?s=40" class="img-circle"> {{ author.display_name }} on {{ post.date | date: '%B %d, %Y' }}, {% for category in site.categories %}<a href="/{{ category | first | slugize }}/">{{ category | first | capitalize }}</a>{% endfor %}</p>
 		          	<p>{{ post.excerpt }}</p>
 		          	<p><a href="{{ post.url }}" class="btn btn-inverse">Read More</a></p>
 			 </div>
