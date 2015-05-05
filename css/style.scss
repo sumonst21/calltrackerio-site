@@ -15,6 +15,10 @@
 @import 'progression-player';
 @import 'progression-minimal-light';
 // add more css stuff here
+body {
+  font-size: 15px;
+}
+
 body article.post {
   font-size: 18px;
 }
@@ -70,9 +74,13 @@ ul.lead i {
 }
 // Custom Media Element Audio Player style
 // play
+
+.mejs-container.progression-skin .mejs-controls {
+  height: 41px;
+}
 body .progression-skin.progression-minimal-light .mejs-controls .mejs-time-rail .mejs-time-handle {
 	width: 12px;
-  	height: 12px;
+  height: 12px;
 }
 body .progression-skin.progression-minimal-light .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
 	top: 16px;
@@ -83,7 +91,22 @@ body .progression-skin.progression-minimal-light .mejs-controls .mejs-horizontal
 body .progression-skin.progression-minimal-light .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-handle {
 	top: 16px;
 	width: 8px;
-  	height: 8px;
+  height: 8px;
+}
+body .mejs-container.progression-skin.progression-minimal-light, body .mejs-container.progression-skin.progression-minimal-light .mejs-controls {
+  border-color: #ddd;
+}
+body .progression-skin.progression-minimal-light .mejs-controls .mejs-playpause-button {
+  border-color: #ddd;
+}
+body .progression-skin.progression-minimal-light .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+  background: $brand-primary;
+}
+body .progression-skin.progression-minimal-light .mejs-controls button {
+  color: $brand-primary;
+}
+body .progression-skin.progression-minimal-light .mejs-controls .mejs-time-rail .mejs-time-current {
+  background: $brand-primary;
 }
 // Icon Styles
 
@@ -469,7 +492,7 @@ table.dataTable.no-footer {
 }
 
 .timeline > li.timeline-inverted {
-  top:-62px;
+  top:-60px;
 }
 
 .timeline > li.top-timeline-panel .timeline-badge {

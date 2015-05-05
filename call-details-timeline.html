@@ -5,28 +5,32 @@ sitemap: false
 ---
 {% include header-end-user.html %}
 <div class="content">
-<section>
 	<div class="container">
+  {% include sub-navbar.html %}
   <div class="row">
     <div class="col-md-12">
       <ul class="timeline">
             <li>
                 <div class="timeline-badge">
-                  <a><i class="md md-adjust md-lg" id=""></i></a>
+                  <i class="md md-adjust md-lg invert text-primary"></i>
                 </div>
                 <div class="panel timeline-panel">
                     <div class="panel-heading timeline-heading">
-                        <h5><i class="md md-call-received text-success"></i> Answered Call Details</h5>
+                        <h5><i class="md md-call text-primary"></i> Call Details</h5>
                     </div>
                     <div class="panel-body timeline-body">
                         <table border="0" width="" class="table table-hover table-condensed lead-details">
+                          <tr>
+                            <td><strong>Status</strong></td>
+                            <td>Answered</td>
+                          </tr>
                           <tr>
                             <td><strong>Name</strong></td>
                             <td>Jennifer Rizzi</td>
                           </tr>
                           <tr>
                             <td><strong>Phone Number</strong></td>
-                            <td>877-786-2094</td>
+                            <td><span>877-786-2094</span> <i class="md md-dnd-on text-danger"></i></td>
                           </tr>
                           <tr>
                             <td><strong>Date</strong></td>
@@ -41,65 +45,65 @@ sitemap: false
                             <td>Keywords Tracker</td>
                           </tr>
                           <tr>
-                            <td><strong>Source Refferer</strong></td>
-                            <td>www.google.com</td>
-                          </tr>
-                          <tr>
-                            <td><strong>Source Channel</strong></td>
-                            <td>Orgainc</td>
-                          </tr>
-                          <tr>
-                            <td><strong>Source Keyword</strong></td>
-                            <td>msp website developer</td>
-                          </tr>
-                          <tr>
-                            <td><strong>Landing Page</strong></td>
-                            <td>www.prontomarketing.com/imp-report</td>
-                          </tr>
-                          <tr>
-                            <td><strong>Total Calls</strong></td>
-                            <td>3</td>
-                          </tr>
-                          <tr>
-                            <td><strong>First Call</strong></td>
-                            <td>Feb 21, 2015 at 4:59 PM EST</td>
-                          </tr>
-                          <tr>
-                            <td><strong>Previous Call</strong></td>
-                            <td>Feb 28, 2015 at 4:59 PM EST</td>
-                          </tr>
-                          <tr>
                             <td><strong>Location</strong></td>
                             <td>New York, New York</td>
                           </tr>
                         </table>
-                        <img src="https://maps.googleapis.com/maps/api/staticmap?zoom=13&size=600x200&maptype=roadmap&markers=color:red%7C40.718217,-73.998284" class="img-responsive"/>
+                        <img src="https://maps.googleapis.com/maps/api/staticmap?zoom=8&size=600x200&maptype=roadmap&markers=color:red%7C40.718217,-73.998284" class="img-responsive"/>
                     </div>
                 </div>
             </li>
             
             <li class="timeline-inverted top-timeline-panel">
                 <div class="timeline-badge">
-                    <a><i class="md md-adjust md-lg invert" id=""></i></a>
+                    <i class="md md-adjust md-lg invert text-primary"></i>
                 </div>
                 <div class="panel timeline-panel">
                     <div class="panel-heading timeline-heading">
-                        <a href="#" class="btn btn-sm btn-primary pull-right">Download MP3</a>
-                        <h5><i class="md md-mic-none text-primary"></i> Call Recording</h5>
+                        <a href="#" class="btn btn-xs btn-primary pull-right m-t-5">Download MP3</a>
+                        <h5><i class="md md-voicemail text-primary"></i> Call Recording</h5>
                     </div>
                     <div class="panel-body timeline-body">
                         <p><audio class="progression-audio-player progression-skin progression-minimal-light" controls="controls" preload="none" src="http://prontodev.github.io/pronto-dashboard/assets/audio/RE52846612d921b85e7ded4a7638102c12.mp3" type="audio/mp3"></p>
                     </div>
                 </div>
             </li>
-            
             <li class="timeline-inverted">
                 <div class="timeline-badge">
-                  <a><i class="md md-adjust md-lg" id=""></i></a>
+                  <i class="md md-adjust md-lg invert text-primary"></i>
                 </div>
                 <div class="panel timeline-panel">
                     <div class="panel-heading timeline-heading">
-                        <h5><i class="md md-mode-edit text-primary"></i> Call Notes</h5>
+                        <h5><i class="md md-history text-primary"></i> Caller History</h5>
+                    </div>
+                    <div class="panel-body timeline-body">
+                        <table border="0" width="" class="table table-hover table-condensed lead-details">
+                          <tr>
+                            <td><span class="info-bubble info-bubble-small" title="Missed Call" placement="top"><i class="md-call-missed text-danger bold fa-lg"></i></span></td>
+                            <td>3/15/2014 12:57 PM</td>
+                            <td>
+                              <a href="/call-details/" class="btn btn-xs btn-primary">Details</a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td><span class="info-bubble info-bubble-small" title="Recieved Call" placement="top"><i class="md-call-received text-success bold fa-lg"></i></span></td>
+                            <td>2/12/2014 1:37 PM</td>
+                            <td>
+                              <a href="/call-details/" class="btn btn-xs btn-primary">Details</a>
+                            </td>
+                          </tr>
+
+                        </table>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-badge">
+                  <i class="md md-adjust md-lg invert text-primary"></i>
+                </div>
+                <div class="panel timeline-panel">
+                    <div class="panel-heading timeline-heading">
+                        <h5><i class="md md-speaker-notes text-primary"></i> Call Notes</h5>
                     </div>
                     <div class="panel-body timeline-body">
                         <ul class="media-list">
@@ -113,25 +117,6 @@ sitemap: false
                                 <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
                               </div>
                             </li>
-                            <li class="media">
-                              <a class="pull-left" href="#">
-                                <img class="media-object img-circle" src="/images/app/128.jpg" alt="..." width="35px">
-                              </a>
-                              <div class="media-body">
-                                <a href="#" class="delete-link text-danger pull-right">Delete</a>
-                                <h5 class="media-heading">John Brown <small>February 10, 2014</small></h5>
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                              </div>
-                            </li>
-                            <li class="media">
-                              <a class="pull-left" href="#">
-                                <img class="media-object img-circle" src="/images/app/128.jpg" alt="..." width="35px">
-                              </a>
-                              <div class="media-body">
-                                <a href="#" class="delete-link text-danger pull-right">Delete</a>
-                                <h5 class="media-heading">Alex Phelps <small>February 07, 2014</small></h5>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                              </div>
                             </li>
                           </ul>
                           <hr>
@@ -141,16 +126,63 @@ sitemap: false
                     </div>
                 </div>
             </li>
-            <li>
+            <li class="">
                 <div class="timeline-badge">
-                  <a><i class="md md-adjust md-lg" id=""></i></a>
+                  <i class="md md-adjust md-lg invert text-primary"></i>
                 </div>
                 <div class="panel timeline-panel">
                     <div class="panel-heading timeline-heading">
-                        <h5><i class="md md-history text-primary"></i> Caller History</h5>
+                        <h5><i class="md md-visibility text-primary"></i> Web Source Details</h5>
                     </div>
                     <div class="panel-body timeline-body">
                         <table border="0" width="" class="table table-hover table-condensed lead-details">
+                                                    <tr>
+                            <td><strong>Source Refferer</strong></td>
+                            <td><a href="#" target="_blank">www.google.com</a></td>
+                          </tr>
+                          <tr>
+                            <td><strong>Source Channel</strong></td>
+                            <td>Orgainc</td>
+                          </tr>
+                          <tr>
+                            <td><strong>Source Keyword</strong></td>
+                            <td>msp website developer</td>
+                          </tr>
+                          <tr>
+                            <td><strong>Landing Page</strong></td>
+                            <td><a href="#" target="_blank">www.prontomarketing.com/imp-report/</a></td>
+                          </tr>
+
+
+                        </table>
+                    </div>
+                </div>
+            </li>
+            <li class="">
+                <div class="timeline-badge">
+                  <i class="md md-adjust md-lg invert text-primary"></i>
+                </div>
+                <div class="panel timeline-panel">
+                    <div class="panel-heading timeline-heading">
+                        <h5><i class="md md-explore text-primary"></i> Web Pages Visited</h5>
+                    </div>
+                    <div class="panel-body timeline-body">
+                        <table border="0" width="" class="table table-hover table-condensed lead-details">
+                          <tr>
+                            <td><a href="#" target="_blank">www.prontomarketing.com/</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="#" target="_blank">www.prontomarketing.com/services/</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="#" target="_blank">www.prontomarketing.com/websiets-for-msps/</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="#" target="_blank">www.prontomarketing.com/imp-report/</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="#" target="_blank">www.prontomarketing.com/contact/</a></td>
+                          </tr>
                         </table>
                     </div>
                 </div>
@@ -159,7 +191,6 @@ sitemap: false
         </ul>
     </div>
   </div>
-</section>
 </div>
 {% include footer.html %}
 {% include javascript.html %}
