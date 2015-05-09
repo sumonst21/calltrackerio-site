@@ -40,6 +40,24 @@ layout: base
 </section>  
 </div>
 {% include footer.html %}
+{% include ouibounce.html %}
 {% include javascript.html %}
+
+<script>
+  var _ouibounce = ouibounce(document.getElementById('ouibounce-modal'), {
+    aggressive: true,
+    timer: 0,
+  });
+  $('body').on('click', function() {
+    $('#ouibounce-modal').hide();
+  });
+  $('#ouibounce-modal .ouibounce-modal-footer').on('click', function() {
+    $('#ouibounce-modal').hide();
+  });
+
+  $('#ouibounce-modal .ouibounce-modal').on('click', function(e) {
+    e.stopPropagation();
+  });
+</script>
 </body>
 </html>

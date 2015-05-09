@@ -1,7 +1,7 @@
 ---
 layout: post
 author: alex
-category: 'general'
+category: 'marketing'
 title: What is Call Tracking and Why Should I Care?
 image: ''
 excerpt: 'Over the last decade there has been an enormous amount of focus on digital marketing, tracking digital campaigns, search engine optimization, and analyzing web lead data for more effective marketing and better ROI.'
