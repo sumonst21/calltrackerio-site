@@ -26,12 +26,18 @@ sitemap: false
     </div>-->
     {% include sub-navbar.html %}
     <div class="row m-t-20">
-      <div class="col-md-8">  
-        <h5 class="chart-title">Calls Over Time</h5>
+      <div class="col-md-12">
+        <div id="reportrange" class="pull-right btn btn-default btn-sm" >
+            <i class="md md-access-time"></i>
+            <span></span>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
         <div id="callsovertime"></div>
       </div>
       <div class="col-md-4">  
-        <h5 class="chart-title">Call Answer Rate</h5>
         <div id="donutcallstatus"></div>
       </div>
     </div>
@@ -74,7 +80,7 @@ sitemap: false
                       <span class="info-bubble info-bubble-small" title="Recieved Call" placement="top"><i class="md-call-received text-success bold fa-lg"></i></span>
                     </td>
                     <td>
-                      <a href="/call-details/">John Doe</a>
+                      <a href="/call-details-timeline/">John Doe</a>
                     </td>
                       <td>
                         877-786-2094
@@ -92,7 +98,7 @@ sitemap: false
                         2m 28s
                       </td>
                       <td>
-                          <a href="/call-details/" class="btn btn-xs btn-primary">Details</a>
+                          <a href="/call-details-timeline/" class="btn btn-xs btn-primary">Details</a>
                       </td>
                   </tr>
                   <tr>
@@ -100,7 +106,7 @@ sitemap: false
                       <span class="info-bubble info-bubble-small" title="Abandoned Call" placement="top"><i class="md-call-received bold fa-lg"></i></span>
                     </td>
                     <td>
-                      <a href="/call-details/">Jane Doe</a>
+                      <a href="/call-details-timeline/">Jane Doe</a>
                     </td>
                       <td>
                         877-786-2094
@@ -118,7 +124,7 @@ sitemap: false
                         1m 48s
                       </td>
                       <td>
-                          <a href="/call-details/" class="btn btn-xs btn-primary">Details</a>
+                          <a href="/call-details-timeline/" class="btn btn-xs btn-primary">Details</a>
                       </td>
                   </tr>
                   <tr>
@@ -126,7 +132,7 @@ sitemap: false
                       <span class="info-bubble info-bubble-small" title="Recieved Call" placement="top"><i class="md-call-received text-success bold fa-lg"></i></span>
                     </td>
                     <td>
-                      <a href="/call-details/">Jennifer Gizzi</a>
+                      <a href="/call-details-timeline/">Jennifer Gizzi</a>
                     </td>
                       <td>
                         877-786-2094
@@ -144,7 +150,7 @@ sitemap: false
                         3m 58s
                       </td>
                       <td>
-                        <a href="/call-details/" class="btn btn-xs btn-primary">Details</a>
+                        <a href="/call-details-timeline/" class="btn btn-xs btn-primary">Details</a>
                       </td>
                   </tr>
                   <tr>
@@ -152,7 +158,7 @@ sitemap: false
                       <span class="info-bubble info-bubble-small" title="Recieved Call" placement="top"><i class="md-call-received text-success bold fa-lg"></i></span>
                     </td>
                     <td>
-                      <a href="/call-details/">John Doe</a>
+                      <a href="/call-details-timeline/">John Doe</a>
                     </td>
                       <td>
                         877-786-2094
@@ -170,7 +176,7 @@ sitemap: false
                         2m 28s
                       </td>
                       <td>
-                        <a href="/call-details/" class="btn btn-xs btn-primary">Details</a>
+                        <a href="/call-details-timeline/" class="btn btn-xs btn-primary">Details</a>
                       </td>
                   </tr>
                   <tr>
@@ -178,7 +184,7 @@ sitemap: false
                       <span class="info-bubble info-bubble-small" title="Missed Call" placement="top"><i class="md-call-missed text-danger bold fa-lg"></i></span>
                     </td>
                     <td>
-                      <a href="/call-details/">Jane Doe</a>
+                      <a href="/call-details-timeline/">Jane Doe</a>
                     </td>
                       <td>
                         877-786-2094
@@ -196,7 +202,7 @@ sitemap: false
                         1m 48s
                       </td>
                       <td>
-                          <a href="/call-details/" class="btn btn-xs btn-primary">Details</a>
+                          <a href="/call-details-timeline/" class="btn btn-xs btn-primary">Details</a>
                       </td>
                   </tr>
                   <tr>
@@ -204,7 +210,7 @@ sitemap: false
                       <span class="info-bubble info-bubble-small" title="Recieved Call" placement="top"><i class="md-call-received text-success bold fa-lg"></i></span>
                     </td>
                     <td>
-                      <a href="/call-details/">Jennifer Gizzi</a>
+                      <a href="/call-details-timeline/">Jennifer Gizzi</a>
                     </td>
                       <td>
                         877-786-2094
@@ -222,7 +228,7 @@ sitemap: false
                         3m 58s
                       </td>
                       <td>
-                          <a href="/call-details/" class="btn btn-xs btn-primary">Details</a>
+                          <a href="/call-details-timeline/" class="btn btn-xs btn-primary">Details</a>
                       </td>
                   </tr>
                   <tr>
@@ -230,7 +236,7 @@ sitemap: false
                       <span class="info-bubble info-bubble-small" title="Recieved Call" placement="top"><i class="md-call-received text-success bold fa-lg"></i></span>
                     </td>
                     <td>
-                      <a href="/call-details/">John Doe</a>
+                      <a href="/call-details-timeline/">John Doe</a>
                     </td>
                       <td>
                         877-786-2094
@@ -248,7 +254,7 @@ sitemap: false
                         2m 28s
                       </td>
                       <td>
-                          <a href="/call-details/" class="btn btn-xs btn-primary">Details</a>
+                          <a href="/call-details-timeline/" class="btn btn-xs btn-primary">Details</a>
                       </td>
                   </tr>
                   <tr>
@@ -274,7 +280,7 @@ sitemap: false
                         1m 48s
                       </td>
                       <td>
-                          <a href="/call-details/" class="btn btn-xs btn-primary">Details</a>
+                          <a href="/call-details-timeline/" class="btn btn-xs btn-primary">Details</a>
                       </td>
                   </tr>
                   <tr>
@@ -282,7 +288,7 @@ sitemap: false
                       <span class="info-bubble info-bubble-small" title="Recieved Call" placement="top"><i class="md-call-received text-success bold fa-lg"></i></span>
                     </td>
                     <td>
-                      <a href="/call-details/">Jennifer Gizzi</a>
+                      <a href="/call-details-timeline/">Jennifer Gizzi</a>
                     </td>
                       <td>
                         877-786-2094
@@ -300,7 +306,7 @@ sitemap: false
                         3m 58s
                       </td>
                       <td>
-                        <a href="/call-details/" class="btn btn-xs btn-primary">Details</a>
+                        <a href="/call-details-timeline/" class="btn btn-xs btn-primary">Details</a>
                       </td>
                   </tr>
                   <tr>
@@ -308,7 +314,7 @@ sitemap: false
                       <span class="info-bubble info-bubble-small" title="Recieved Call" placement="top"><i class="md-call-received text-success bold fa-lg"></i></span>
                     </td>
                     <td>
-                      <a href="/call-details/">John Doe</a>
+                      <a href="/call-details-timeline/">John Doe</a>
                     </td>
                       <td>
                         877-786-2094
@@ -326,7 +332,7 @@ sitemap: false
                         2m 28s
                       </td>
                       <td>
-                        <a href="/call-details/" class="btn btn-xs btn-primary">Details</a>
+                        <a href="/call-details-timeline/" class="btn btn-xs btn-primary">Details</a>
                       </td>
                   </tr>
                   <tr>
@@ -334,7 +340,7 @@ sitemap: false
                       <span class="info-bubble info-bubble-small" title="Missed Call" placement="top"><i class="md-call-missed text-danger bold fa-lg"></i></span>
                     </td>
                     <td>
-                      <a href="/call-details/">Jane Doe</a>
+                      <a href="/call-details-timeline/">Jane Doe</a>
                     </td>
                       <td>
                         877-786-2094
@@ -352,7 +358,7 @@ sitemap: false
                         1m 48s
                       </td>
                       <td>
-                          <a href="/call-details/" class="btn btn-xs btn-primary">Details</a>
+                          <a href="/call-details-timeline/" class="btn btn-xs btn-primary">Details</a>
                       </td>
                   </tr>
                   <tr>
@@ -360,7 +366,7 @@ sitemap: false
                       <span class="info-bubble info-bubble-small" title="Recieved Call" placement="top"><i class="md-call-received text-success bold fa-lg"></i></span>
                     </td>
                     <td>
-                      <a href="/call-details/">Jennifer Gizzi</a>
+                      <a href="/call-details-timeline/">Jennifer Gizzi</a>
                     </td>
                       <td>
                         877-786-2094
@@ -378,7 +384,7 @@ sitemap: false
                         3m 58s
                       </td>
                       <td>
-                          <a href="/call-details/" class="btn btn-xs btn-primary">Details</a>
+                          <a href="/call-details-timeline/" class="btn btn-xs btn-primary">Details</a>
                       </td>
                   </tr>
               </tbody>
@@ -544,6 +550,51 @@ $(document).ready(function(){
   		}
   	}
   });
+});
+</script>
+<script type="text/javascript">
+$(function() {
+ 
+    $('#reportrange span').html(moment().subtract(29, 'days').format('MMMM D, YYYY') + ' - ' + moment().format('MMMM D, YYYY'));
+ 
+    $('#reportrange').daterangepicker({
+        format: 'MM/DD/YYYY',
+        startDate: moment().subtract(29, 'days'),
+        endDate: moment(),
+        minDate: '01/01/2012',
+        maxDate: '12/31/2015',
+        dateLimit: { days: 60 },
+        showDropdowns: true,
+        showWeekNumbers: true,
+        timePicker: false,
+        timePickerIncrement: 1,
+        timePicker12Hour: true,
+        ranges: {
+           'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+           'Last 6 Months': [moment().subtract(179, 'days'), moment()],
+           'Last Year': [moment().subtract(365, 'days'), moment()],
+        },
+        opens: 'left',
+        drops: 'down',
+        buttonClasses: ['btn', 'btn-sm'],
+        applyClass: 'btn-primary',
+        cancelClass: 'btn-default',
+        separator: ' to ',
+        locale: {
+            applyLabel: 'Submit',
+            cancelLabel: 'Cancel',
+            fromLabel: 'From',
+            toLabel: 'To',
+            customRangeLabel: 'Custom',
+            daysOfWeek: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr','Sa'],
+            monthNames: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+            firstDay: 1
+        }
+    }, function(start, end, label) {
+        console.log(start.toISOString(), end.toISOString(), label);
+        $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+    });
+ 
 });
 </script>
 </body>

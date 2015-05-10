@@ -16,6 +16,7 @@
 @import 'progression-player';
 @import 'progression-minimal-light';
 @import 'ouibounce';
+@import 'daterangepicker-bs3';
 // add more css stuff here
 body {
   font-size: 15px;
@@ -552,4 +553,17 @@ table.dataTable.no-footer {
     .timeline > li.top-timeline-panel .timeline-badge {
       display: initial;
     }
+}
+/* -----------------------------------------------
+ * Datepicker
+ * --------------------------------------------- */
+.daterangepicker .ranges li.active, .daterangepicker .ranges li:hover {
+  background-color: $brand-primary;
+  border-color: $brand-primary;
+  color: #fff;
+}
+ .daterangepicker td.active, .daterangepicker td.active:hover {
+  background-color: $brand-primary;
+  border-color: $brand-primary;
+  color: #fff;
 }
