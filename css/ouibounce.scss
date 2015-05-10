@@ -42,11 +42,7 @@
   border-radius: 4px 4px 0 0;
   text-align: center;
 }
-#ouibounce-modal h3 {
-  color: $brand-primary;
-  font-size: 1em;
-  margin: 0.2em;
-}
+
 #ouibounce-modal .ouibounce-modal-body {
   padding: 20px 35px;
   font-size: 0.9em;
@@ -54,10 +50,6 @@
 #ouibounce-modal p {
   color: #344a5f;
   line-height: 1.3em;
-}
-#ouibounce-modal form {
-  text-align: center;
-  margin-top: 35px;
 }
 #ouibounce-modal form input[type=text] {
   padding: 12px;

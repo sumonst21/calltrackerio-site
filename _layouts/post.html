@@ -40,11 +40,11 @@ layout: base
 </section>  
 </div>
 {% include footer.html %}
+{% include ouibounce.html %}
 {% include javascript.html %}
-
 <script>
   var _ouibounce = ouibounce(document.getElementById('ouibounce-modal'), {
-    aggressive: true,
+    aggressive: false,
     timer: 0,
   });
   $('body').on('click', function() {

@@ -1,11 +1,9 @@
 <div id="ouibounce-modal">
   <div class="ouibounce-underlay"></div>
   <div class="ouibounce-modal">
-    <div class="ouibounce-modal-title">
-      <h3>Get More Free Tips and Updates</h3>
-    </div>
-    <div class="modal-body">
-      <p>Subscribe to our newsletter to get notified about blog and development on our Call Tracking product!</p>
+    <div class="modal-body text-center">
+      <h4 class"text-primary">Want to get notified next time we post an article?</h4>
+      <p class="p-l-20 p-r-20">Subscribe to our newsletter to get notified for new blog posts and development on Calltracker.</p>
       <div class="">
       <form action="https://calltracker.createsend.com/t/i/s/jhahk/" method="post" id="subForm">
         <div class="form-group floating-label">
@@ -21,19 +19,3 @@
     </div>
   </div>
 </div>
-<script>
-  var _ouibounce = ouibounce(document.getElementById('ouibounce-modal'), {
-    aggressive: true,
-    timer: 0,
-  });
-  $('body').on('click', function() {
-    $('#ouibounce-modal').hide();
-  });
-  $('#ouibounce-modal .ouibounce-modal-footer').on('click', function() {
-    $('#ouibounce-modal').hide();
-  });
-
-  $('#ouibounce-modal .ouibounce-modal').on('click', function(e) {
-    e.stopPropagation();
-  });
-</script>
