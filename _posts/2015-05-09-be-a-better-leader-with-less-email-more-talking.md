@@ -2,7 +2,7 @@
 layout: post
 author: alex
 category: 'teams'
-title: Stop Emailing and Start Talking with Your Team
+title: Be a Better Email with Less Email and More Talking
 image: '/images/posts/2015-05-09-just-say-no-to-email.png'
 excerpt: 'The irony is that while email, as an asynchronous channel, has the potential to be more thoughtful, it often promotes the opposite tendency to be immediately reactive.'
 ---
