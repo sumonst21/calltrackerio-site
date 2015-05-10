@@ -2,7 +2,7 @@
 layout: post
 author: alex
 category: 'teams'
-title: Be a Better Email with Less Email and More Talking
+title: Be a Better Leader with Less Email
 image: '/images/posts/2015-05-09-just-say-no-to-email.png'
 excerpt: 'The irony is that while email, as an asynchronous channel, has the potential to be more thoughtful, it often promotes the opposite tendency to be immediately reactive.'
 ---
