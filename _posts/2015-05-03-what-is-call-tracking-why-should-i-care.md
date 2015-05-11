@@ -34,4 +34,4 @@ Simply put, Call tracking allows you to fill in the gaps in your lead generation
 
 Call tracking then records the campaign that each caller came from, giving you the marketing source attribution data. Now that you know where exactly conversions originated, you can accurately measure your ROI – and ultimately this is going to help streamline your marketing budget. 
 
-That's it, that's where we're at and that's why Calltracker is being born. We're on a mission to help marketers get this data and achieve better ROI on their marketing efforts.
+That's it, that's where we're at and that's why {{site.name}} is being born. We're on a mission to help marketers get this data and achieve better ROI on their marketing efforts.
