@@ -3,22 +3,6 @@ layout: base
 title:  'Call Tracking, Phone Call Analytics by Call Tracker '
 ---
 {% include header.html %}
-<div class="slide-down-header hidden navbar navbar-default navbar-fixed-top hidden-xs">
-<nav class="navbar">
-  <div class="container">
-  	<div class="row">
-  		<div class="col-md-3 hidden-sm">
-  			<a class="navbar-brand" href="/">
-	        {% include logo.html %}
-	      </a>
-  		</div>
-  		<div class="col-md-9 col-sm-12 text-right p-t-15">
-  			<p class="lead">Get insights for what makes your phone ring <a href="/sign-up/" class="btn btn-primary btn-sm">Request Early Accesss</a></p>
-  		</div>
-  	</div>
-  </div>
-</nav>
-</div>
 <div class="content">
 <section class="">
 	<div class="container">
@@ -45,19 +29,5 @@ title:  'Call Tracking, Phone Call Analytics by Call Tracker '
 </div>	
 {% include footer.html %}
 {% include javascript.html %}
-<script type="text/javascript">
-$(document).scroll(function() {    
-	var scroll = $(this).scrollTop();
-	if (scroll >= 500) {
-		$(".slide-down-header").removeClass("hidden").addClass('show');
-	} 
-	else if (scroll <= 490) {
-		$(".slide-down-header").addClass("hidden").removeClass('show');
-	}
-	else {
-		$(".slide-down-header").addClass("hidden").removeClass('show');
-	}
-});
-</script>
 </body>
 </html>
