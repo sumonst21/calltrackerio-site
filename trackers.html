@@ -1,0 +1,143 @@
+---
+layout: base
+title:  'Call Tracking, Phone Call Analytics by Call Tracker '
+sitemap: false
+---
+{% include header-end-user.html %}
+<div class="content">
+	<div class="container">
+      <div class="row p-b-100 m-t-20">
+        <div class="col-md-12">
+					<div class="panel">
+						<div class="panel-heading">
+							<a href="/#" class="btn btn-primary btn-sm pull-right m-l-10">Add Tracking Number</a>
+							<a href="/#" class="btn btn-sm pull-right m-l-10">Blocked Numbers</a>
+							<div id="reportrange" class="pull-right btn btn-default btn-sm" >
+			            <i class="md md-access-time"></i>
+			            <span></span>
+			        </div>
+							<h5>Call Tracking Numbers</h5>
+						</div>
+						<div class="panel-body">
+							<table class="table table-hover table-condensed" id="all-calls" width="100%">
+		              <thead>
+		                  <tr>
+		                      <th >
+		                         Tracker Name
+		                      </th>
+		                      <th>
+		                        Source Type
+		                      </th>
+		                      <th>
+		                          Tracking Number
+		                      </th>
+		                      <th>
+		                          Destination
+		                      </th>
+		                      <th>
+		                          Calls
+		                      </th>
+		                      <th>
+		                        Minutes
+		                      </th>
+		                      <th>
+		                          Status
+		                      </th>
+													<th>
+		                          Manage
+		                      </th>
+		                  </tr>
+		              </thead>
+		              <tbody>
+											<tr>
+												<td>Keyword Pool</td>
+												<td>Keyword</td>
+												<td><a href="/number-allocation">15 Numbers</a></td>
+												<td>(800) 270-3440</td>
+												<td>37</td><td>190</td>
+												<td>Active</td>
+												<td><a href="#" class="btn btn-default btn-sm">Settings</a></td>
+											</tr>
+											<tr>
+												<td>MSP Direct Mail</td>
+												<td>Offline</td>
+												<td>(855) 899-6896</td>
+												<td>(800) 270-3440</td>
+												<td>0</td><td>0</td>
+												<td>Active</td>
+												<td><a href="#" class="btn btn-default btn-sm">Settings</a></td>
+											</tr>
+		                  <tr>
+												<td>Organic Search</td>
+												<td>Campaign</td>
+												<td>(415) 969-2340</td>
+												<td>(800) 270-3440</td>
+												<td>0</td><td>0</td>
+												<td>Inactive</td><td></td>
+											</tr>
+												<tr>
+													<td>Old Keyword Pool</td>
+													<td>Keyword</td>
+													<td><a href="/number-allocation">0 Numbers</a></td>
+													<td>(800) 270-3440</td>
+													<td>0</td><td>0</td>
+													<td>Inactive</td>
+													<td></td>
+												</tr>
+
+		              </tbody>
+		          </table>
+						</div>
+					</div>
+        </div>
+      </div>
+
+		</div>
+	</div>
+</div>
+{% include javascript.html %}
+<script type="text/javascript">
+$(function() {
+    $('#reportrange span').html(moment().subtract(29, 'days').format('MMMM D, YYYY') + ' - ' + moment().format('MMMM D, YYYY'));
+    $('#reportrange').daterangepicker({
+        format: 'MM/DD/YYYY',
+        startDate: moment().subtract(29, 'days'),
+        endDate: moment(),
+        minDate: '01/01/2012',
+        maxDate: '12/31/2015',
+        dateLimit: { days: 60 },
+        showDropdowns: true,
+        showWeekNumbers: true,
+        timePicker: false,
+        timePickerIncrement: 1,
+        timePicker12Hour: true,
+        ranges: {
+           'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+           'Last 6 Months': [moment().subtract(179, 'days'), moment()],
+           'Last Year': [moment().subtract(365, 'days'), moment()],
+        },
+        opens: 'left',
+        drops: 'down',
+        buttonClasses: ['btn', 'btn-sm'],
+        applyClass: 'btn-primary',
+        cancelClass: 'btn-default',
+        separator: ' to ',
+        locale: {
+            applyLabel: 'Submit',
+            cancelLabel: 'Cancel',
+            fromLabel: 'From',
+            toLabel: 'To',
+            customRangeLabel: 'Custom',
+            daysOfWeek: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr','Sa'],
+            monthNames: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+            firstDay: 1
+        }
+    }, function(start, end, label) {
+        console.log(start.toISOString(), end.toISOString(), label);
+        $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+    });
+
+});
+</script>
+</body>
+</html>
