@@ -71,7 +71,7 @@ h5.media-heading {
 ul.lead {
   font-size: 18px;
   line-height: 40px;
-} 
+}
 ul.lead i {
     margin-right: 10px;
 }
@@ -143,6 +143,7 @@ body .progression-skin.progression-minimal-light .mejs-controls .mejs-time-rail 
 
 .navbar-brand {
 	color: $headings-color;
+  width: 180px;
 }
 
 .navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -259,7 +260,7 @@ body .progression-skin.progression-minimal-light .mejs-controls .mejs-time-rail 
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-  opacity: 1; 
+  opacity: 1;
   color: #000;
 }
 .c3-tooltip th {
@@ -267,10 +268,10 @@ body .progression-skin.progression-minimal-light .mejs-controls .mejs-time-rail 
   font-size: 14px;
   padding: 2px 5px;
   text-align: left;
-  color: #000; 
+  color: #000;
 }
 .c3-tooltip tr {
-  border: 1px solid #eee; 
+  border: 1px solid #eee;
 }
 .c3-legend-item-tile {
 	shape-rendering: initial;
@@ -567,3 +568,24 @@ table.dataTable.no-footer {
   border-color: $brand-primary;
   color: #fff;
 }
+
+/* -----------------------------------------------
+ * Material Design Icons
+ * --------------------------------------------- */
+// Vertical Align Fix
+.material-icons { vertical-align: middle; }
+
+// Rules for sizing the icon.
+.material-icons.md-16 { font-size: 16px; }
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+// Rules for using icons as black on a light background.
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+// Rules for using icons as white on a dark background.
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
