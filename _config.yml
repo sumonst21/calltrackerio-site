@@ -1,14 +1,14 @@
 ###########
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink: pretty
-relative_permalinks: true
+relative_permalinks: false
 
 # site.url, site.title
 
 url:   'https://calltracker.io'
 title: 'Calltracker'
 name: 'Calltracker'
-paginate:            1
+# paginate:            1
 baseurl:             ""
 
 ########
