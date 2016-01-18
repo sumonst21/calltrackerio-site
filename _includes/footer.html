@@ -3,16 +3,18 @@
 <div class="container">
 	<hr>
 	<div class="row m-t-50 m-b-50">
-		<div class="col-md-6">
-			<a class="navbar-brand" href="/">
-			{% include logo.html %}
-			</a>
+		<div class="col-md-12 text-center">
+			<h5>Sign Up for a <strong>free</strong> account to get started</h5>
+			<p class="lead">Join data-driven companies tracking calls.</p>
+			<p><a href="/sign-up/" class="btn btn-lg btn-primary r">Request Early Access</a></p>
 		</div>
-		<div class="col-md-6">
-			<p class="text-uppercase bold">About {{ site.name }}</p>
-			<ul class="list-inline">
-				<li><a href="/contact/">Contact Us</a></li>
-			</ul>
+	</div>
+</div>
+<div class="container">
+	<hr>
+	<div class="row m-t-20">
+		<div class="col-md-12">
+			<p>&copy;{{ site.time | date: '%Y' }} {{ site.name }} LLC </p>
 		</div>
 	</div>
 </div>
