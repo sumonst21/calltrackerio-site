@@ -6,17 +6,8 @@
 @import 'bootswatch';
 @import 'bootstrap-custom';
 @import 'utility-classes';
-//@import 'c3';
 //@import 'focal-point';
-//@import 'jquery.dataTables';
-//@import 'jquery.dataTables.bootstrap';
-//@import 'select2';
-//@import 'select2-bootstrap';
-// @import 'mediaelementplayer';
-//@import 'progression-player';
-//@import 'progression-minimal-light';
 @import 'ouibounce';
-//@import 'daterangepicker-bs3';
 // add more css stuff here
 body {
   font-size: 15px;
@@ -24,6 +15,7 @@ body {
 
 body article.post {
   font-size: 18px;
+  font-weight: 300;
 }
 body .post-preview {
   font-size: 18px;
