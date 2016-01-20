@@ -25,7 +25,11 @@ gems:
   - jekyll-sitemap
 
 exclude:
-- [README.md, node_modules, package.json, npm-debug.log, Gruntfile.js, scss]
+- README.md
+- node_modules
+- package.json
+- npm-debug.log
+- Gruntfile.js
 
 safe: true
 lsi: false
