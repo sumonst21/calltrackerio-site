@@ -58,7 +58,7 @@ module.exports = function(grunt) {
             // Set to true to enable the following options…
             expand: true,
             // cwd is 'current working directory'
-            cwd: 'project-directory/img/',
+            cwd: 'images/',
             src: ['**/*.jpg'],
             // Could also match cwd. i.e. project-directory/img/
             dest: 'images/',
