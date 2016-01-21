@@ -30,6 +30,42 @@ module.exports = function(grunt) {
       main_bundle:[
         'js/main.js',
       ]
+    },
+    imagemin: {
+      png: {
+        options: {
+          optimizationLevel: 7
+        },
+        files: [
+          {
+            // Set to true to enable the following options…
+            expand: true,
+            // cwd is 'current working directory'
+            cwd: 'images/',
+            src: ['**/*.png'],
+            // Could also match cwd line above. i.e. project-directory/img/
+            dest: 'images/',
+            ext: '.png'
+          }
+        ]
+      },
+      jpg: {
+        options: {
+          progressive: true
+        },
+        files: [
+          {
+            // Set to true to enable the following options…
+            expand: true,
+            // cwd is 'current working directory'
+            cwd: 'project-directory/img/',
+            src: ['**/*.jpg'],
+            // Could also match cwd. i.e. project-directory/img/
+            dest: 'images/',
+            ext: '.jpg'
+          }
+        ]
+      }
     }
 
   });
@@ -38,10 +74,11 @@ module.exports = function(grunt) {
   // Load grunt plugins
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
 
   // Default task(s).
   grunt.registerTask(
-    'default', ['uglify','jshint']
+    'default', ['uglify','jshint', 'imagemin']
   );
 
 };
