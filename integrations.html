@@ -1,0 +1,26 @@
+---
+layout: base
+title: 'Integrations'
+---
+{% include header.html %}
+<div class="content">
+<section>
+  <div class="container">
+  	<div class="row">
+		{% for integration in site.integrations %}
+		 <div class="integration-listing-item">
+		 	<a href="{{ integration.url }}" class="integration-listing-item-link">
+		 		<img class="integration-grid-img" src="{{ integration.image }}">
+		 		<h3 class="integration-listing-item-header">{{ integration.title }}</h3>
+		 		<p class="integration-listing-item-excerpt">{{ integration.excerpt }}</p>
+		 	</a>
+		 </div>
+		{% endfor %}
+  	</div>
+</div>
+</section>
+</div>
+{% include footer.html %}
+{% include javascript.html %}
+</body>
+</html>

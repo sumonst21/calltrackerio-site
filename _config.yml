@@ -24,6 +24,12 @@ sass:
 gems:
   - jekyll-sitemap
 
+collections:
+  integrations:
+    output: true
+    permalink: /integrations/:path/
+
+
 exclude:
 - README.md
 - node_modules

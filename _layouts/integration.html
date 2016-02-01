@@ -1,0 +1,26 @@
+---
+layout: base
+---
+{% include header.html %}
+<div class="content">
+<section>
+  <div class="container">
+  <article class="post col-md-8 col-md-offset-2">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="focal-point">
+          <div><img class="img-responsive" src="{{ page.image }}" /></div>
+        </div>
+      </div>
+    </div>
+    <h3 class="bold post-title">{{ page.title }}</h3>
+    {{ content }}
+  </article>
+  </div>
+</section>  
+</div>
+{% include footer.html %}
+{% include ouibounce.html %}
+{% include javascript.html %}
+</body>
+</html>
