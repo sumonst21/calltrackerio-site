@@ -21,7 +21,7 @@ body .post-preview {
   font-size: 18px;
 }
 section:first-child .container {
-  padding-top:40px;
+  padding-top: 20px;
 }
 .post-preview a:hover {
   text-decoration: none;
@@ -49,6 +49,29 @@ h5.media-heading {
 	font-size: 16px;
 }
 // Section Background Styles
+.bg-primary-color {
+  background: $brand-primary;
+  color: #ffffff !important;
+}
+.bg-primary-color h1, .bg-primary-color h2, .bg-primary-color h3, .bg-primary-color h4 {
+  color: #ffffff !important;
+}
+.bg-primary-color a, .bg-primary-color a:hover{
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.bg-success-color {
+  background: $brand-success;
+  color: #ffffff !important;
+}
+.bg-success-color h1, .bg-success-color h2, .bg-success-color h3, .bg-success-color h4 {
+  color: #ffffff !important;
+}
+.bg-success-color a, .bg-success-color a:hover{
+  color: #ffffff !important;
+  text-decoration: none;
+}
 
 .bg-light-grey {
 	background-color: #eee;
@@ -147,6 +170,11 @@ ul.lead i {
 }
 
 // Integrations styles
+.integrations-header {
+  padding: 0 0 15px 0;
+  margin-bottom: 40px;
+}
+
 .integration-listing-item {
     position: relative;
     float: left;
@@ -159,30 +187,36 @@ ul.lead i {
     -webkit-transition: border-color 0.15s ease 0s, -webkit-transform 0.15s ease 0s, box-shadow 0.15s ease 0s, color 0.15s ease 0s;
     transition: border-color 0.15s ease 0s, transform 0.15s ease 0s, box-shadow 0.15s ease 0s, color 0.15s ease 0s;
 }
+
 .integration-listing-item:hover {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
 }
+
 .integration-listing-item-link {
   display: block;
   height: 200px;
   padding-top: 30px;
 }
+
 .integration-listing-item-link:hover {
   text-decoration: none;
 }
+
 .integration-listing-item .integration-grid-img {
   width: 80px;
   display: block;
   margin: 0 auto 10px;
 }
+
 .integration-listing-item-header {
     margin: 15px 10px 0;
     font-size: 16px;
     font-weight: bold;
     color: #444;
 }
+
 .integration-listing-item-excerpt {
   position: relative;
   height: 2.8em;
@@ -191,6 +225,16 @@ ul.lead i {
   overflow: hidden;
   font-size: 14px;
   color: #666;
+}
+
+.integration-details-title {
+  border-bottom: 1px solid #ededed;
+  padding-bottom:20px;
+  margin-bottom: 20px;
+}
+
+.integration-details-img {
+  height: 100px;
 }
 // Form Styles
 

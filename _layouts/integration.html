@@ -3,19 +3,33 @@ layout: base
 ---
 {% include header.html %}
 <div class="content">
-<section>
+<section class="bg-success-color integrations-header">
   <div class="container">
-  <article class="post col-md-8 col-md-offset-2">
     <div class="row">
       <div class="col-md-12">
-        <div class="focal-point">
-          <div><img class="img-responsive" src="{{ page.image }}" /></div>
-        </div>
+        <h4><a href="/integrations"><i class="material-icons md-36">chevron_left</i> Integrations
+        </a></h4>
       </div>
     </div>
-    <h3 class="bold post-title">{{ page.title }}</h3>
-    {{ content }}
+  </div>
+</section>
+<section>
+  <div class="container">
+  <article class="post col-md-9">
+    <div class="integration-details-title clearfix p-b-20 m-b-20">
+      <img class="integration-details-img pull-left m-r-20" src="{{ page.image }}" />
+      <h4 class="post-title">{{ page.title }}</h4>
+      <p class="lead">{{ page.excerpt }}</p>
+    </div>
+    <div class="content">
+      {{ content }}
+    </div>
   </article>
+  <div class="col-md-3">
+    {% if page.more_info %}
+      <h4>More Info</h4>
+      {{ page.more_info }}
+    {% endif %}
   </div>
 </section>  
 </div>
