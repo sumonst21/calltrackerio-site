@@ -9,7 +9,7 @@ Our Google Adwords integration integration creates a seemless flow of data all t
 
 ![google adwords integration](/images/integrations/mockups/google-adwords-integration-flow.png){: .img-responsive .text-center }
 
-##### How it works
+##### How It Works
 
 Our integration is powered by our number pool tracking where we'll be able to trace back the Google Click ID of each caller and then push the call event data to Google Analytics. Once in Google Analytics as an event, you'll be able to use Google Adwords' native import features to import the events to Google Adwords.
 
