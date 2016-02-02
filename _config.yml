@@ -23,7 +23,6 @@ sass:
 
 gems:
   - jekyll-sitemap
-  - jekyll-assets
 
 assets:
   sources:
@@ -42,7 +41,6 @@ exclude:
 - npm-debug.log
 - Gruntfile.js
 
-safe: true
 lsi: false
 
 # Compress html
