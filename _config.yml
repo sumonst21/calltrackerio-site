@@ -19,10 +19,15 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 sass:
   sass_dir: css
-  style:    expanded
+  style:    compressed
 
 gems:
   - jekyll-sitemap
+  - jekyll-assets
+
+assets:
+  sources:
+   - css
 
 collections:
   integrations:
