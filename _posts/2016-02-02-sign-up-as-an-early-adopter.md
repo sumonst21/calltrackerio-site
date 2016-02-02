@@ -25,4 +25,4 @@ excerpt: 'We&#39;re exicited to announce that we&#39;re nearing the launch of ou
 
 #### Ready to join as an early adopter?
 
-<p>Take advantage of this limited off and <a href="https://app.calltracker.io/signup/">create your account</a></p>
+<p>Take advantage of this limited off and <a href="https://app.calltracker.io/signup/">create your free account.</a></p>
