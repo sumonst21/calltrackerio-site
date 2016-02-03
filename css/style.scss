@@ -129,11 +129,14 @@ ul.lead i {
 
 .navbar-brand {
 	color: $headings-color;
-	width: 80px;
 }
 
 .navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: $brand-primary;
+}
+
+.navbar-toggle {
+  background-color: $brand-primary;
 }
 
 .navbar-toggle .icon-bar {
