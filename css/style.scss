@@ -49,7 +49,7 @@ a:hover, a:focus {
 }
 
 .panel-body {
-  padding: 0 15px 15px 15px;
+  padding: 20px;
 }
 h5.media-heading {
 	font-size: 16px;
@@ -97,11 +97,29 @@ ul.lead i {
     margin-right: 10px;
 }
 
-// Icon Styles
-
-.md-6x {
-	font-size: 6em;
+// Pricing Styles
+.price > .dollar {
+  font-size: 2em;
+  line-height: 1em;
+  font-weight: 300;
+  position: absolute;
+  top: 40px;
 }
+.price > .cent {
+  font-size: 2em;
+  line-height: 1em;
+  font-weight: 300;
+}
+.price > .figure {
+  font-size: 96px;
+  font-weight: 400;
+  padding: 0 0 0 14px;
+  font-weight: 500;
+}
+.price > .month {
+  font-size: 2em;
+}
+
 
 // Navbar Styles
 .navbar {
@@ -376,6 +394,9 @@ ul.lead i {
 /* -----------------------------------------------
  * Material Design Icons
  * --------------------------------------------- */
+.md-6x {
+  font-size: 6em;
+}
 // Vertical Align Fix
 .material-icons { vertical-align: middle; }
 
