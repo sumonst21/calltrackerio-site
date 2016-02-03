@@ -4,6 +4,7 @@ title: 'Google Adwords'
 image: '/images/integrations/google-adwords-icon.png'
 excerpt: 'Reach the right people at the right time.'
 more_info:  false
+featured: true
 ---
 Our Google Adwords integration integration creates a seemless flow of data all the way into your Google Adwords dashboard. The combination of call tracking with PPC marketing will provide campaign managers the data they need to optimize for the best conversion rates and advertising spend ROI.
 

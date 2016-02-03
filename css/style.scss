@@ -23,6 +23,9 @@ body .post-preview {
 section:first-child .container {
   padding-top: 20px;
 }
+.w-80 {
+  width: 80px;
+}
 .post-preview a:hover {
   text-decoration: none;
 }
@@ -236,6 +239,33 @@ ul.lead i {
 .integration-details-img {
   height: 100px;
 }
+
+.integration-grid-item-sm {
+  margin: 10px;
+  width: 28.99%;
+  position: relative;
+  float: left;
+  text-align: center;
+  border: 1px solid #ededed;
+  border-radius: 2px;
+  -webkit-transition: border-color 0.15s ease 0s, -webkit-transform 0.15s ease 0s, box-shadow 0.15s ease 0s, color 0.15s ease 0s;
+  transition: border-color 0.15s ease 0s, transform 0.15s ease 0s, box-shadow 0.15s ease 0s, color 0.15s ease 0s;
+}
+.integration-grid-item-sm:hover {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.integration-grid-item-sm-link {
+  display: block;
+  height: 150px;
+  padding: 20px 0 0 0;
+}
+
+.integration-grid-item-sm-link:hover {
+  text-decoration: none;
+}
+
 // Form Styles
 
 /* --- material floating label --- */

@@ -3,8 +3,8 @@ layout: integration
 title: 'Google Analytics'
 image: '/images/integrations/google-analytics-icon.png'
 excerpt: 'Turn insights into action.'
-
 more_info:  false
+featured: true
 ---
 Google Analytics lets you do more than measure sales and conversions. It also gives insights into how visitors find and use your site, and how to keep them coming back.
 

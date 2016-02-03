@@ -8,7 +8,7 @@ title:  'Call Tracking, Phone Call Analytics by Call Tracker '
 	<div class="container">
 		<div class="row p-b-10">
 			<div class="col-md-12 text-center">
-					<h3>Elegantly simple call tracking for your business</h3>
+				<h3>Elegantly simple call tracking for your business</h3>
 				<p class="lead">Knowing what makes your phone ring shouldn't be complicated.</p>
 		</div>
 		</div>
@@ -65,6 +65,30 @@ title:  'Call Tracking, Phone Call Analytics by Call Tracker '
 		</div>
 </section>
 {% include features-section.html %}
+<hr>
+<section class="">
+	<div class="container">
+		<div class="row p-b-40 m-t-40">
+			<div class="col-md-12 text-center">
+				<h4>Integrations With Your Favorite Tools</h4>
+			</div>
+			<div class="col-md-6 col-md-offset-3">
+				{% for integration in site.integrations %}
+					{% if integration.featured %}
+						<div class="integration-grid-item-sm">
+							<a href="{{ integration.url }}" class="integration-grid-item-sm-link">
+								<img class="integration-grid-img w-80" src="{{ integration.image }}">
+								<h4 class="integration-listing-item-header">{{ integration.title }}</h4>
+							</a>
+						</div>
+					{% endif %}
+				{% endfor %}
+			</div>
+			<div class="col-md-12 text-center m-t-10">
+				<p><a href="/integrations/" class="btn btn-primary btn-sm">View all Integrations</a></p>
+			</div>
+		</div>
+</section>
 <hr>
 {% include pricing-section.html %}
 </div>	
