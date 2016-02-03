@@ -74,24 +74,34 @@ keywords: 'call tracking, call recording, call analytics, call, tracking, metric
 <section class="">
 	<div class="container">
 		<div class="row p-b-40 m-t-40">
+			<div class="col-md-12">
+			<div class="row">
 			<div class="col-md-12 text-center">
 				<h4>Integrations With Your Favorite Tools</h4>
 			</div>
-			<div class="col-md-6 col-md-offset-3">
-				{% for integration in site.integrations %}
-					{% if integration.featured %}
-						<div class="integration-grid-item-sm">
-							<a href="{{ integration.url }}" class="integration-grid-item-sm-link">
-								<img class="integration-grid-img w-80" src="{{ integration.image }}" alt="call tracker {{ integration.title }} integration">
-								<h4 class="integration-listing-item-header">{{ integration.title }}</h4>
-							</a>
-						</div>
-					{% endif %}
-				{% endfor %}
 			</div>
-			<div class="col-md-12 text-center m-t-10">
-				<p><a href="/integrations/" class="btn btn-primary btn-sm">View all Integrations</a></p>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					{% for integration in site.integrations %}
+						{% if integration.featured %}
+							<div class="integration-grid-item-sm">
+								<a href="{{ integration.url }}" class="integration-grid-item-sm-link">
+									<img class="integration-grid-img w-80" src="{{ integration.image }}" alt="call tracker {{ integration.title }} integration">
+									<h4 class="integration-listing-item-header">{{ integration.title }}</h4>
+								</a>
+							</div>
+						{% endif %}
+					{% endfor %}
+				</div>
 			</div>
+			<div class="row">
+				<div class="col-md-12 text-center m-t-10">
+					<p><a href="/integrations/" class="btn btn-primary btn-sm">View all Integrations</a></p>
+				</div>
+			</div>
+
+			</div>
+			
 		</div>
 	</div>
 </section>
