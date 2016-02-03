@@ -20,7 +20,7 @@ title: 'Integrations'
 		{% for integration in site.integrations %}
 		 <div class="integration-listing-item">
 		 	<a href="{{ integration.url }}" class="integration-listing-item-link">
-		 		<img class="integration-grid-img" src="{{ integration.image }}" alt="call tracker {{ page.title }} integration">
+		 		<img class="integration-grid-img" src="{{ integration.image }}" alt="call tracker {{ integration.title }} integration">
 		 		<h3 class="integration-listing-item-header">{{ integration.title }}</h3>
 		 		<p class="integration-listing-item-excerpt">{{ integration.excerpt }}</p>
 		 	</a>
