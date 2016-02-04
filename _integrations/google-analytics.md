@@ -10,7 +10,7 @@ Google Analytics lets you do more than measure sales and conversions. It also gi
 
 Our Google Analytics integration pushes your phone call activity into your Google Analytics profile so that you can analyze your phone calls right along side your website activity. This integration also is the foundation of our Google Adwords integration as well. 
 
-![google analytics integration](/images/integrations/mockups/google-analytics-phone-calls.png){: .img-responsive .text-center }
+<p class="text-center"><img src="/images/integrations/mockups/google-analytics-phone-calls.png" class="blog-content-img" alt="google analytics integration" /></p>
 
 
 ##### Benefits of Our Google Analytics Integration
