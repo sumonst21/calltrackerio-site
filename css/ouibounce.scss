@@ -1,5 +1,5 @@
 #ouibounce-modal {
-  font-family: 'Open Sans', sans-serif;
+  font-family: inherit;
   display: none;
   position: fixed;
   top: 0;
@@ -80,7 +80,6 @@
   font-size: 0.9em;
 }
 #ouibounce-modal .ouibounce-modal-footer {
-  position: absolute;
   bottom: 20px;
   text-align: center;
   width: 100%;

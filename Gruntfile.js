@@ -10,7 +10,7 @@ module.exports = function(grunt) {
           [
             'js/jquery-1.11.2.min.js',
             'js/bootstrap.min.js',
-            'js/ouibounce.js',
+            'js/ouibounce.min.js',
             'js/main.js',
           ]
         }
