@@ -16,12 +16,18 @@ excerpt: 'We&#39;re exicited to announce that we&#39;re nearing the launch of ou
 
 <p><strong>Core Call Tracking</strong></p>
 <p>All the features you'd expect from call tracking are already baked into the product. Calls are forwarded from tracking numbers to your real number with the ability to play a pre-call message to the reciever, and also the ability to record calls to go back and listen to later.</p>
+<p class="text-center"><img src="/images/app-mockups/callsmockup.png" class="blog-content-img" alt="call tracking dashboard" /></p>
+<p class="text-center"><img src="/images/app-mockups/calldetailsmockup.png" class="blog-content-img" alt="call tracking dashboard" /></p>
 <p><strong>Reporting</strong></p>
 <p>Measure and analyze every call with a reporting suite with reports for calls by source channel, calls by search term, and calls by tracker.</p>
+<p class="text-center"><img src="/images/app-mockups/callsbytrackerreportmockup.png" class="blog-content-img" alt="call tracking keywords report" /></p>
+<p class="text-center"><img src="/images/app-mockups/keywordreportmockup.png" class="blog-content-img" alt="call tracking keywords report" /></p>
 <p><strong>Integrations</strong></p>
 <p>We're happy to annouce the integrations that we're launching with are Dynamic Number Insertion, Google Analytics, and Google Adwords.<a href="/integrations/">Checkout our integrations directory for more details.</a></p>
+<p class="text-center"><img src="/images/integrations/launch-integrations.png" class="blog-content-img" alt="call tracking integrations" /></p>
 <p><strong>White Labling for Agencies</strong></p>
 <p>Call Tracking is an essential component to your client’s overall marketing strategy. Call Tracker makes it easy to deliver call tracking seemlessly to all of your clients.</p>
+<p class="text-center"><img src="/images/app-mockups/agency-branding-mockup.png" class="blog-content-img" alt="call tracking white lable agency branding" /></p>
 
 #### Ready to join as an early adopter?
 
