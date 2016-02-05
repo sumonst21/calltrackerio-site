@@ -71,42 +71,38 @@ keywords: 'optimize adwords, call tracking, call recording, call analytics, call
 	</div>
 </section>
 {% include features-section.html %}
-<hr>
 <section class="">
 	<div class="container">
 		<div class="row p-b-40 m-t-40">
 			<div class="col-md-12">
-			<div class="row">
-			<div class="col-md-12 text-center">
-				<h4>Integrations With Your Favorite Tools</h4>
-			</div>
-			</div>
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					{% for integration in site.integrations %}
-						{% if integration.featured %}
-							<div class="integration-grid-item-sm">
-								<a href="{{ integration.url }}" class="integration-grid-item-sm-link">
-									<img class="integration-grid-img w-80" src="{{ integration.image }}" alt="call tracker {{ integration.title }} integration">
-									<h4 class="integration-listing-item-header">{{ integration.title }}</h4>
-								</a>
-							</div>
-						{% endif %}
-					{% endfor %}
+				<div class="row">
+				<div class="col-md-12 text-center">
+					<h4>Integrations With Your Favorite Tools</h4>
+				</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						{% for integration in site.integrations %}
+							{% if integration.featured %}
+								<div class="integration-grid-item-sm">
+									<a href="{{ integration.url }}" class="integration-grid-item-sm-link">
+										<img class="integration-grid-img w-80" src="{{ integration.image }}" alt="call tracker {{ integration.title }} integration">
+										<h4 class="integration-listing-item-header">{{ integration.title }}</h4>
+									</a>
+								</div>
+							{% endif %}
+						{% endfor %}
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 text-center m-t-10">
+						<p><a href="/integrations/" class="btn btn-primary btn-sm">View all Integrations</a></p>
+					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-12 text-center m-t-10">
-					<p><a href="/integrations/" class="btn btn-primary btn-sm">View all Integrations</a></p>
-				</div>
-			</div>
-
-			</div>
-			
 		</div>
 	</div>
 </section>
-<hr>
 {% include pricing-section.html %}
 </div>	
 {% include footer.html %}
