@@ -23,7 +23,7 @@ Each time something new comes up, I like to take a step back and think about the
 
 We went over our requirements for our help docs and it was clear that the existing Help Desks on the market didn’t fit quite our needs, one requirement in particular was a deal breaker, white label. On the flip side of that, “Help Desks” or “Help Docs” with mostly static content are also not overwhelmingly complicated. 
 
-It was clear, in this case, the relatively low complexity of building help docs with static content and the high value of it being completely integrated to our product meant we should build. From there, it took about 3 total days of development to build our Help Docs. 
+It was clear, in this case, the relatively low complexity of building help docs with static content and the high value of it being completely integrated to our product meant we should build. From there, it took about 3 total days of development to build our [Help Docs](https://app.calltracker.io/help/). 
 
 It actually took us longer to put together the first batch of articles than it did to build the backend itself. If we had bought a Help Desk tool, we would have needed a few days to customize the look and feel, and then still would have to write the content, which is the real value, so I feel pretty good about 3 days invested for the development.
 
@@ -40,20 +40,20 @@ It actually took us longer to put together the first batch of articles than it d
 #### Here's what we came up with to meet our goals.
 
 ##### Help Docs Preview
-Help is always there with our help docs, more and more customers prefer self-service and we made it right front and center.
+Help is always there with our help docs, [more and more customers prefer self-service](https://www.zendesk.com/resources/searching-for-self-service/) and we made it right front and center.
 <div class="text-center">
-<img src="/images/posts/call-tracker-help-docs.jpg" class="blog-content-img" alt="call tracker help docs" />
+<a href="https://app.calltracker.io/help/"><img src="/images/posts/call-tracker-help-docs.jpg" class="blog-content-img" alt="call tracker help docs" /></a>
 </div>
 
 ##### White Label Help Docs Preview
 For our agency customers, the help docs branding is seamless with their brand. Even the support address is customizable so they can route support inquiries into their workflow.
 <div class="text-center">
-<img src="/images/posts/call-tracker-help-docs-white-label.jpg" class="blog-content-img" alt="call tracker help docs white label" />
+<a href="https://app.calltracker.io/help/"><img src="/images/posts/call-tracker-help-docs-white-label.jpg" class="blog-content-img" alt="call tracker help docs white label" /></a>
 </div>
 
 #### Results
 
-We think that we met our initial goals and are pretty happy with how our help docs have turned out. The great thing is, we now have a solid base to continue building on top of, we already have some ideas on how to improve it. In the spirit of launching an MVP, we’ve decided to push forward with this initial release. 
+We think that we met our initial goals and are pretty happy with how our [help docs](https://app.calltracker.io/help/) have turned out. The great thing is, we now have a solid base to continue building on top of, we already have some ideas on how to improve it. In the spirit of launching an MVP, we’ve decided to push forward with this initial release. 
 
 
 #### Tell us about your process
