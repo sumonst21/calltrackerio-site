@@ -8,9 +8,8 @@ module.exports = function(grunt) {
         files: {
           'js/main_bundle.min.js':
           [
-            'js/jquery-1.11.2.min.js',
+            'js/jquery-1.12.0.js',
             'js/bootstrap.min.js',
-            'js/ouibounce.min.js',
             'js/main.js',
           ]
         }
