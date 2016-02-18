@@ -12,6 +12,7 @@
 // add more css stuff here
 body {
   font-size: 15px;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 body article.post {
@@ -19,9 +20,6 @@ body article.post {
 }
 body .post-preview {
   font-size: 18px;
-}
-section:first-child .container {
-  padding-top: 20px;
 }
 .w-80 {
   width: 80px;
@@ -60,16 +58,18 @@ h5.media-heading {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-// Section Background Styles
+/* -----------------------------------------------
+ * Section Background Styles
+ * --------------------------------------------- */
 .bg-primary-color {
-  background: $brand-primary;
-  color: #ffffff !important;
+  background-color: $brand-primary;
+  color: #ffffff;
 }
-.bg-primary-color h1, .bg-primary-color h2, .bg-primary-color h3, .bg-primary-color h4 {
-  color: #ffffff !important;
+.bg-primary-color h1, .bg-primary-color h2, .bg-primary-color h3, .bg-primary-color h4, .bg-primary-color h5 , .bg-primary-color h6 {
+  color: #ffffff;
 }
 .bg-primary-color a, .bg-primary-color a:hover{
-  color: #ffffff !important;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -102,7 +102,119 @@ ul.lead {
 ul.lead i {
     margin-right: 10px;
 }
-// Footer Styles
+/* -----------------------------------------------
+ * Button Styles
+ * --------------------------------------------- */
+.btn-default {
+  color: $brand-primary !important;
+}
+/* -----------------------------------------------
+ * Navbar Styles
+ * --------------------------------------------- */
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+}
+.navbar-nav > li.active > a {
+  background: none repeat scroll 0 0 rgba(0,0,0,0);
+    box-shadow: 0 -3px 0 0 $brand-primary inset;
+}
+
+.navbar-nav > li > a:hover {
+  background: none repeat scroll 0 0 rgba(0,0,0,0);
+    box-shadow: 0 -3px 0 0 $brand-primary inset;
+}
+
+.navbar-nav > li > a {
+  text-transform: uppercase;
+  color: $text-color;
+}
+
+.navbar-brand {
+  color: $headings-color;
+}
+
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: $brand-primary;
+}
+
+.navbar-toggle {
+  background-color: $brand-primary;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-brand {
+  padding: 10px 15px;
+}
+
+.navbar-brand > img {
+  width: 150px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.navbar-brand > p > span {
+  color: $brand-primary;
+}
+
+.img-profile-avatar {
+  margin-top: -5px;
+}
+
+.navbar.sub-nav {
+  min-height: 32px;
+  border-top: 1px solid #eee;
+}
+.sub-nav .navbar-nav > li > a{
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+.border-bottom-grey {
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar.no-border {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* -----------------------------------------------
+ * Hero Styles
+ * --------------------------------------------- */
+.hero {
+  background: $brand-primary url('/images/skin/bg_banner.png') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-height: 850px;
+}
+
+.hero nav {
+  background: rgba(0, 156, 255, 0.53);
+  border-bottom: 1px solid rgba(16, 125, 213, 0.77);
+}
+.hero .navbar-nav>li>a:hover {
+    background: none repeat scroll 0 0 transparent;
+    box-shadow: 0 -1px 0 0 #fff inset;
+}
+.hero p {
+  font-size: 16px;
+}
+.hero .navbar-nav > li > a {
+  text-transform: uppercase;
+  color: #fff;
+}
+/* -----------------------------------------------
+ * Footer Styles
+ * --------------------------------------------- */
 .footer-link-list {
   font-size: 14px;
 }
@@ -148,81 +260,6 @@ ul.lead i {
   top: 65px;
   right: -25px;
   color: #444;
-}
-
-// Navbar Styles
-.navbar {
-	margin-bottom: 0px;
-  border-radius: 0px;
-}
-
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	background-color: transparent;
-}
-.navbar-nav > li.active > a {
-	background: none repeat scroll 0 0 rgba(0,0,0,0);
-  	box-shadow: 0 -3px 0 0 $brand-primary inset;
-}
-
-.navbar-nav > li > a:hover {
-	background: none repeat scroll 0 0 rgba(0,0,0,0);
-  	box-shadow: 0 -3px 0 0 $brand-primary inset;
-}
-
-.navbar-nav > li > a {
-	text-transform: uppercase;
-	color: $text-color;
-}
-
-.navbar-brand {
-	color: $headings-color;
-}
-
-.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: $brand-primary;
-}
-
-.navbar-toggle {
-  background-color: $brand-primary;
-}
-
-.navbar-toggle .icon-bar {
-    background-color: #fff;
-}
-
-.navbar-brand {
-	padding: 10px 15px;
-}
-
-.navbar-brand > img {
-  width: 150px;
-  margin-right: 10px;
-  margin-top: 10px;
-}
-.navbar-brand > p > span {
-	color: $brand-primary;
-}
-
-.img-profile-avatar {
-	margin-top: -5px;
-}
-
-.navbar.sub-nav {
-	min-height: 32px;
-	border-top: 1px solid #eee;
-}
-.sub-nav .navbar-nav > li > a{
-	padding-top:5px;
-	padding-bottom:5px;
-}
-
-.border-bottom-grey {
-  border-bottom: 1px solid #ddd;
-}
-
-.navbar.no-border {
-  -webkit-box-shadow: none;
-  box-shadow: none;
 }
 
 // Form Styles
@@ -305,9 +342,6 @@ ul.lead i {
     -moz-transition: opacity .9s ease-in-out;
     -webkit-transition: opacity .9s ease-in-out;
     -o-transition: opacity .9s ease-in-out;
-}
-.request-button {
-  margin-top: -800px;
 }
 
 //slidedown header
