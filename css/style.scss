@@ -58,6 +58,10 @@ h5.media-heading {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.features-list li {
+  margin: 15px 0;
+}
 /* -----------------------------------------------
  * Section Background Styles
  * --------------------------------------------- */
@@ -89,6 +93,14 @@ h5.media-heading {
 	background-color: #eee;
 }
 
+.bg-dark-grey {
+  background-color: #2f3035;
+}
+.bg-dark-grey h1, .bg-dark-grey h2, .bg-dark-grey h3, .bg-dark-grey h4, .bg-dark-grey h5, .bg-dark-grey h6, .bg-dark-grey p {
+  color: #ffffff;
+}
+
+
 .btn-xl {
     padding: 18px 28px;
     font-size: 22px;
@@ -102,6 +114,16 @@ ul.lead {
 ul.lead i {
     margin-right: 10px;
 }
+/* -----------------------------------------------
+ * How it Works
+ * --------------------------------------------- */
+ .how-it-works .help-text {
+  width: 195px;
+  font-size: 14px;
+  color: #676a73;
+  margin: 40px 0 0 0;
+  
+ }
 /* -----------------------------------------------
  * Button Styles
  * --------------------------------------------- */
