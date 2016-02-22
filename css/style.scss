@@ -248,40 +248,44 @@ ul.lead i {
   font-size: 14px;
   font-weight: 300;
 }
-// Pricing Styles
+/* -----------------------------------------------
+ * Pricing Styles
+ * --------------------------------------------- */
+
 .price {
-  color: #444;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin:10px;
 }
 .price > .dollar {
-  font-size: 2em;
+  font-size: 45px;
   line-height: 1em;
-  font-weight: 300;
   position: absolute;
-  top: 40px;
+  top: 30px;
 }
 .price > .cent {
-  font-size: 2em;
+  font-size: 45px;
   line-height: 1em;
-  font-weight: 300;
 }
 .price > .figure {
   font-size: 96px;
-  font-weight: 400;
   padding: 0 0 0 14px;
   font-weight: 500;
+  line-height: 140px;
 }
 .price > .month {
-  font-size: 2em;
+  font-size: 16px;
 }
 
+.price-interval {
+  margin-top: -10px;
+}
 .price-plus {
-  font-size: 3em;
+  font-size: 36px;
   line-height: 1em;
-  font-weight: 300;
   position: absolute;
-  top: 65px;
-  right: -25px;
-  color: #444;
+  top: 86px;
+  right: -18px;
 }
 
 // Form Styles
