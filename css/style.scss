@@ -40,7 +40,8 @@ body .post-preview {
 	border-right:solid 1px #eee;
 }
 .btn-inverse {
-  border: 2px solid #1D93F0;
+  border: 1px solid $brand-primary;
+  padding: 5px 10px 5px 10px;
 }
 a:hover, a:focus {
 	color: $brand-primary;
@@ -101,12 +102,6 @@ h5.media-heading {
 }
 
 
-.btn-xl {
-    padding: 18px 28px;
-    font-size: 22px;
-    line-height: normal;
-  }
-
 ul.lead {
   font-size: 18px;
   line-height: 40px;
@@ -129,6 +124,23 @@ ul.lead i {
  * --------------------------------------------- */
 .btn-default {
   color: $brand-primary !important;
+}
+
+.bg-primary-color .btn-inverse {
+  background-color: none;
+  border-color: #fff;
+  padding: 5px 10px 4px 10px;
+  border: 1px solid;
+}
+
+.btn-xl {
+  padding: 15px 30px;
+  font-size: 19px;
+  line-height: normal;
+}
+
+.request-button {
+  margin-top: -500px;
 }
 /* -----------------------------------------------
  * Navbar Styles
