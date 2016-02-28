@@ -8,7 +8,7 @@ featured: true
 ---
 Our Google Adwords integration integration creates a seemless flow of data all the way into your Google Adwords dashboard. The combination of call tracking with PPC marketing will provide campaign managers the data they need to optimize for the best conversion rates and advertising spend ROI.
 
-<p class="text-center"><img src="/images/integrations/mockups/google-adwords-integration-flow.png" class="blog-content-img" alt="google adwords integration" /></p>
+<p class="text-center"><img src="/images/integrations/mockups/googleadwords-integration-flow.png" class="blog-content-img" alt="google adwords integration" /></p>
 
 ##### How It Works
 
