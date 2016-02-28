@@ -1,7 +1,7 @@
 ---
 layout: integration
 title: 'Google Adwords'
-image: '/images/integrations/google-adwords-icon.png'
+image: '/images/integrations/googleadwords-icon.png'
 excerpt: 'Reach the right people at the right time.'
 more_info:  false
 featured: true
