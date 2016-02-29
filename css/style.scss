@@ -421,3 +421,39 @@ ul.lead i {
 // Rules for using icons as white on a dark background.
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
 .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+/* -----------------------------------------------
+ * Definition list styles
+ * --------------------------------------------- */
+.post {
+    counter-reset: post-counter;
+    font-size: 16px;
+}
+.post dt {
+    position: relative;
+    padding: 8px 0 10px 0;
+    color: #444;
+    font: inherit;
+    font-size: 16px;
+    font-weight: bold;
+}
+.post dt:before {
+    content: counter(post-counter);
+    counter-increment: post-counter;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 16px;
+    background: $brand-primary;
+    padding: 0px 10px;
+    color: #fff;
+    border-radius: 100px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+.post dd {
+    margin: 0 0 20px 0;
+}   
+.post dt, .post dd {
+    padding-left: 45px;
+}
