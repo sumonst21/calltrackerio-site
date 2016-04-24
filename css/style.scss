@@ -8,6 +8,7 @@
 @import 'utility-classes';
 //@import 'focal-point';
 @import 'integrations-styles';
+@import 'animate.css';
 @import 'ouibounce';
 // add more css stuff here
 body {
@@ -21,6 +22,7 @@ body article.post {
 body .post-preview {
   font-size: 16px;
 }
+
 .w-80 {
   width: 80px;
 }
@@ -223,12 +225,12 @@ ul.lead i {
  * Hero Styles
  * --------------------------------------------- */
 .hero {
-  background: $brand-primary url('/images/skin/bg_banner-min.jpg') no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  max-height: 850px;
+  //background: $brand-primary url('/images/skin/bg_banner-min.jpg') no-repeat center center;
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  // background-size: cover;
+  // max-height: 850px;
 }
 
 .hero nav {
@@ -240,11 +242,14 @@ ul.lead i {
     box-shadow: 0 -1px 0 0 #fff inset;
 }
 .hero p {
-  font-size: 16px;
+
 }
 .hero .navbar-nav > li > a {
   text-transform: uppercase;
   color: #fff;
+}
+.hero-screenshot {
+  width: 80%;
 }
 /* -----------------------------------------------
  * Footer Styles
