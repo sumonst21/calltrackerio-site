@@ -462,3 +462,21 @@ ul.lead i {
 .post dt, .post dd {
     padding-left: 45px;
 }
+
+/* -----------------------------------------------
+ * Feature styles
+ * --------------------------------------------- */
+.feature-item {
+  position: relative;
+  float: left;
+  width: 30.99%;
+  margin: 0 0 20px 20px;
+  border-bottom: 1px solid #ededed;
+}
+.feature-item a:hover{
+  text-decoration: none;
+}
+
+.feature-item a {
+  color: #666;
+}

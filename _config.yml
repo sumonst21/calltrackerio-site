@@ -33,6 +33,10 @@ collections:
     output: true
     permalink: /integrations/:path/
 
+  features:
+    output: true
+    permalink: /features/:path/
+
 
 exclude:
 - README.md

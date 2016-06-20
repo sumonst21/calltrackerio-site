@@ -1,0 +1,39 @@
+---
+layout: base
+title: 'Features'
+---
+{% assign sorted_features = site.features | sort: 'order' %}
+{% include header.html %}
+<div class="content">
+<section class="bg-primary-color integrations-header">
+	<div class="container">
+		<div class="row">
+  		<div class="col-md-12 m-t-20">
+  			<h4>Features Galore</h4>
+  			<p class="lead">Powerful features that make tracking calls a breeze.</p>
+  		</div>
+  	</div>
+	</div>
+</section>
+<section>
+  <div class="container">
+  	<div class="row">
+		{% for feature in sorted_features %}
+		 <div class="col-md-4 feature-item">
+		 	<a href="{{ feature.url }}" class="">
+		 		{% if feature.image %}
+		 		<img src="{{ feature.image }}" class="img-responsive"/>
+		 		{% endif %}
+		 		<h5 class="">{{ feature.title }}</h5>
+		 		<p class="">{{ feature.excerpt }}</p>
+		 	</a>
+		 </div>
+		{% endfor %}
+  	</div>
+</div>
+</section>
+</div>
+{% include footer.html %}
+{% include javascript.html %}
+</body>
+</html>

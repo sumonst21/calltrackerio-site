@@ -1,0 +1,24 @@
+---
+layout: base
+---
+{% include header.html %}
+<div class="content">
+<section>
+  <div class="container">
+    <div class="row">
+      <article class="post col-md-8 col-md-offset-2 m-t-30">
+        <h3 class="bold post-title text-center">{{ page.title }}</h3>
+        <p class="lead text-center">{{ page.excerpt }}</p>
+        <img src="{{ page.image }}" class="img-responsive" />
+        <div class="m-t-20">
+          {{ content }}
+        </div>
+      </article>
+    </div>
+  </div>
+</section>  
+</div>
+{% include footer.html %}
+{% include javascript.html %}
+</body>
+</html>
