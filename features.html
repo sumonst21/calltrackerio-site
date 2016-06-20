@@ -22,7 +22,7 @@ title: 'Features'
 		 <div class="col-md-4 feature-item">
 		 	<a href="{{ feature.url }}" class="">
 		 		{% if feature.image %}
-		 		<img src="{{ feature.image }}" class="img-responsive"/>
+		 		<img src="{{ feature.image }}" class="img-responsive" alt="{{ feature.title }}"/>
 		 		{% endif %}
 		 		<h5 class="">{{ feature.title }}</h5>
 		 		<p class="">{{ feature.excerpt }}</p>
