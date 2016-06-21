@@ -9,7 +9,7 @@ We designed Call Tracker from the ground up with Marketing Agencies in mind. We 
 
 <img src="/images/app-mockups/agency-branding-client-reports.png" class="img-responsive" />
 
-<strong>With our Agency Features You Get</strong>
+<strong>With our white label agency features you get:</strong>
 
 <ul class="list-unstyled features-list">
 	<li><i class="material-icons text-success">check</i> Ability to add multiple companies (clients) inside your account.</li>
