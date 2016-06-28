@@ -3,7 +3,7 @@ layout: feature
 title: 'Call Recording'
 image: '/images/features/call-recording.png'
 excerpt: 'Focus on the conversation, not taking notes.'
-order: 2
+order: 4
 ---
 Ever wish you could go back to review your conversation with a potential client that called in? Now you can, <strong>Call Recording</strong> allows you to focus on the conversation and forget about taking notes. Call Recording is a free feature that can be turned on for any tracking number. 
 
