@@ -3,7 +3,7 @@ layout: post
 author: 
 category: 'marketing'
 title: '7 Holiday Mobile Marketing Strategies'
-image: ''
+image: '/images/posts/mobile-marketing.jpg'
 excerpt: 'The holiday season is officially upon us, and with more than half of today’s consumers expected to use their mobile devices to make online purchases over the coming weeks, there’s never been a better time to invest in mobile marketing. If you haven’t yet developed and launched a holiday mobile marketing strategy for your business, here are a few creative ideas to get you started.'
 ---
 The holiday season is officially upon us, and with [more than half](https://www.emarketer.com/Article/Most-Digital-Buyers-Will-Make-Purchases-via-Smartphone-by-2017/1013590) of today’s consumers expected to use their mobile devices to make online purchases over the coming weeks, there’s never been a better time to invest in mobile marketing. If you haven’t yet developed and launched a holiday mobile marketing strategy for your business, here are a few creative ideas to get you started.
