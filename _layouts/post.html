@@ -8,15 +8,17 @@ layout: base
   <div class="container">
     <div class="row">
       <article class="post col-md-8 col-md-offset-2">
-    <!--     <div class="row">
+      {% if page.image %}
+        <div class="row">
           <div class="col-md-12">
             <div class="focal-point">
               <div><img class="img-responsive" src="{{ page.image }}" /></div>
             </div>
           </div>
-        </div> -->
+        </div>
+        {% endif %}
         <h3 class="bold post-title">{{ page.title }}</h3>
-        {% if post.author %}
+        {% if page.author %}
         <p class=""><img src="//www.gravatar.com/avatar/{{ author.gravatar }}?s=40" class="img-circle">
         <span class="author">{{ author.display_name }}</span> wrote this on {% endif %}<time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date: '%B %d, %Y' }}</time></p>
         {{ content }}
