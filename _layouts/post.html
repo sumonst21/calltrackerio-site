@@ -16,8 +16,9 @@ layout: base
           </div>
         </div> -->
         <h3 class="bold post-title">{{ page.title }}</h3>
+        {% if post.author %}
         <p class=""><img src="//www.gravatar.com/avatar/{{ author.gravatar }}?s=40" class="img-circle">
-        <span class="author">{{ author.display_name }}</span> wrote this on <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date: '%B %d, %Y' }}</time></p>
+        <span class="author">{{ author.display_name }}</span> wrote this on {% endif %}<time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date: '%B %d, %Y' }}</time></p>
         {{ content }}
       </article>
     </div>
