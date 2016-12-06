@@ -12,7 +12,9 @@ title: 'Blog'
   			{% assign author = site.authors[post.author] %}
 			 <div class="post-preview">
 			 	<a href="{{ post.url}}">
-			 		<!-- <img src="{{ post.image }}" class="img-responsive" /> -->
+			 		{% if post.image %}
+			 		<img src="{{ post.image }}" class="img-responsive" />
+			 		{% endif %}
 			 		<h3 class="bold">{{ post.title }}</h3>
 			 	</a>
 	          	<p>{{ post.excerpt }}</p>
