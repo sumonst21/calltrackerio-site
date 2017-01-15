@@ -5,18 +5,18 @@ layout: base
 {% include header.html %}
 <div class="content">
 <section>
+    {% if page.image %}
+    <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div style="background-image: url('{{ page.image }}');height: 500px;background-size: cover; background-clip: content-box;"></div>
+      </div>
+    </div>
+    </div>
+    {% endif %}
   <div class="container">
     <div class="row">
       <article class="post col-md-8 col-md-offset-2">
-      {% if page.image %}
-        <div class="row">
-          <div class="col-md-12">
-            <div class="focal-point">
-              <div><img class="img-responsive" src="{{ page.image }}" /></div>
-            </div>
-          </div>
-        </div>
-        {% endif %}
         <h3 class="bold post-title">{{ page.title }}</h3>
         {% if page.author %}
         <p class=""><img src="//www.gravatar.com/avatar/{{ author.gravatar }}?s=40" class="img-circle">
@@ -46,7 +46,7 @@ layout: base
       </div>
     </div>
   </div>
-</section>  
+</section>
 </div>
 {% include footer.html %}
 {% include javascript.html %}
