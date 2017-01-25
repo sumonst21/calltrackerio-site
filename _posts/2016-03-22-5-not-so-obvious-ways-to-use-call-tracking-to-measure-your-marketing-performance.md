@@ -1,9 +1,12 @@
 ---
+title: 5 Not So Obvious Ways to Use Call Tracking to Measure Your Marketing Performance
+date: 2016-03-22 00:00:00 Z
+categories:
+- marketing
 layout: post
 author: alex
-category: 'marketing'
-title: '5 Not So Obvious Ways to Use Call Tracking to Measure Your Marketing Performance'
-excerpt: "Call tracking is normally associated with digital marketing but there are so many other marketing channels that it could be helpful for your business."
+excerpt: Call tracking is normally associated with digital marketing but there are
+  so many other marketing channels that it could be helpful for your business.
 image: 
 ---
 

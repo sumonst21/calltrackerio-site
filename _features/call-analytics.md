@@ -1,8 +1,8 @@
 ---
+title: Call Analytics
 layout: feature
-title: 'Call Analytics'
-image: '/images/features/call-analytics.png'
-excerpt: 'Real time call analytics to help your team analyze call data.'
+image: "/images/features/call-analytics.png"
+excerpt: Real time call analytics to help your team analyze call data.
 order: 1
 ---
 

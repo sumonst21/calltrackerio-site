@@ -1,60 +1,112 @@
-###########
-# Use of `relative_permalinks` ensures post links from the index work properly.
+---
+title: Call Tracker
+timezone: UTC
+collections:
+  features:
+    title: Features
+    output: true
+    permalink: "/features/:path/"
+  integrations:
+    title: Integrations
+    output: true
+    permalink: "/integrations/:path/"
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 permalink: pretty
 relative_permalinks: false
-
-# site.url, site.title
-
-url:   'https://calltracker.io'
-title: 'Call Tracker'
-name: 'Call Tracker'
-# paginate:            1
-baseurl:             ""
-
+url: https://calltracker.io
+name: Call Tracker
+baseurl: ''
 port: 5001
-
-########
-# more settings
-
 markdown: kramdown
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
+markdown_ext: markdown,mkdown,mkdn,mkd,md
 sass:
   sass_dir: css
-  style:    compressed
-
+  style: compressed
 gems:
-  - jekyll-sitemap
-
+- jekyll-sitemap
 assets:
   sources:
-   - css
-
-collections:
-  integrations:
-    output: true
-    permalink: /integrations/:path/
-
-  features:
-    output: true
-    permalink: /features/:path/
-
-
+  - css
 exclude:
 - README.md
 - node_modules
 - package.json
 - npm-debug.log
 - Gruntfile.js
-
 lsi: false
-
-# Compress html
 compress_html:
-  clippings: ['!--', html, head, title, base, link, meta, style, body, article, section, nav, aside, h1, h2, h3, h4, h5, h6, hgroup, header, footer, address, p, hr, blockquote, ol, ul, li, dl, dt, dd, figure, figcaption, main, div, table, caption, colgroup, col, tbody, thead, tfoot, tr, td, th]
-  endings: [html, head, body, li, dt, dd, p, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
-
-# Author details.
+  clippings:
+  - "!--"
+  - html
+  - head
+  - title
+  - base
+  - link
+  - meta
+  - style
+  - body
+  - article
+  - section
+  - nav
+  - aside
+  - h1
+  - h2
+  - h3
+  - h4
+  - h5
+  - h6
+  - hgroup
+  - header
+  - footer
+  - address
+  - p
+  - hr
+  - blockquote
+  - ol
+  - ul
+  - li
+  - dl
+  - dt
+  - dd
+  - figure
+  - figcaption
+  - main
+  - div
+  - table
+  - caption
+  - colgroup
+  - col
+  - tbody
+  - thead
+  - tfoot
+  - tr
+  - td
+  - th
+  endings:
+  - html
+  - head
+  - body
+  - li
+  - dt
+  - dd
+  - p
+  - rt
+  - rp
+  - optgroup
+  - option
+  - colgroup
+  - caption
+  - thead
+  - tbody
+  - tfoot
+  - tr
+  - td
+  - th
 authors:
   alex:
     display_name: Alex Phelps
@@ -62,5 +114,4 @@ authors:
     email: alex@calltracker.io
     googleplus: https://plus.google.com/u/0/+AlexPhelps
     github: alexphelps
-
-twitter: '@calltrackerio'
+twitter: "@calltrackerio"

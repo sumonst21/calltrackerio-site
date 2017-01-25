@@ -1,10 +1,15 @@
 ---
+title: 'New Feature: Automatically Block Robocalls and Telemarketers'
+date: 2016-02-26 00:00:00 Z
+categories:
+- product
 layout: post
 author: alex
-category: 'product'
-title: 'New Feature: Automatically Block Robocalls and Telemarketers'
-excerpt: 'It happens all the time, your phone rings and it’s an automated “robocall” or a telemarketer trying to sell something. What if you could automatically filter these calls out from calls from real people that you want to talk to?'
+excerpt: It happens all the time, your phone rings and it’s an automated “robocall”
+  or a telemarketer trying to sell something. What if you could automatically filter
+  these calls out from calls from real people that you want to talk to?
 ---
+
 It happens all the time, your phone rings and it’s an automated "robocall" or a telemarketer trying to sell something. These calls are not only frustrating but they take up our time and distract us from the important things we need to get done. **What if you could automatically filter these calls out from calls from real people that you want to talk to?**
 
 #### Introducing Robocall and Telemarketer Filtering

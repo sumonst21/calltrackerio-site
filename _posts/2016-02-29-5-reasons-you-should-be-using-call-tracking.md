@@ -1,10 +1,14 @@
 ---
+title: 5 Reasons Why You Should use Call Tracking
+date: 2016-02-29 00:00:00 Z
+categories:
+- marketing
 layout: post
 author: alex
-category: 'marketing'
-title: '5 Reasons Why You Should use Call Tracking'
-image: '/images/posts/call-traking-to-measure-marketing-performance.jpg'
-excerpt: "Have you integrated call tracking into your company's marketing efforts? If you haven't, you’re most likely missing out on an important opportunity to improve marketing measurement and most of all boost ROI."
+image: "/images/posts/call-traking-to-measure-marketing-performance.jpg"
+excerpt: Have you integrated call tracking into your company's marketing efforts?
+  If you haven't, you’re most likely missing out on an important opportunity to improve
+  marketing measurement and most of all boost ROI.
 ---
 
 Have you integrated call tracking into your company’s marketing efforts? If you haven’t, you’re most likely missing out on an important opportunity to improve marketing measurement and most of all boost ROI.

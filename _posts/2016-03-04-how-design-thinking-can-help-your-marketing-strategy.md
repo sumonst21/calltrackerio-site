@@ -1,9 +1,13 @@
 ---
+title: How "Design Thinking" Can Help Your Marketing Strategy
+date: 2016-03-04 00:00:00 Z
+categories:
+- marketing
 layout: post
 author: alex
-category: 'marketing'
-title: 'How "Design Thinking" Can Help Your Marketing Strategy'
-excerpt: "The key element of Design Thinking that is particularly effective is its focus on the users with personas which when applied to a marketing strategy lays excellent groundwork for understanding your target audience."
+excerpt: The key element of Design Thinking that is particularly effective is its
+  focus on the users with personas which when applied to a marketing strategy lays
+  excellent groundwork for understanding your target audience.
 ---
 
 Design thinking is a process for problem solving, but if you apply the same approach to building your marketing strategy you’ll see how it’ll make your marketing strategy focused on solving your target audience’s problems. The key element of Design Thinking that is particularly effective is its focus on the users with personas which when applied to a marketing strategy lays excellent groundwork for understanding your target audience.
