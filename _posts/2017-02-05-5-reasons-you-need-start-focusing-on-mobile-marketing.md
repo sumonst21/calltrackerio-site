@@ -1,11 +1,16 @@
 ---
+title: 5 Reasons You Need to Start Focusing on Mobile Marketing
+date: 2017-02-05 00:00:00 Z
+categories:
+- marketing
 layout: post
-author:
-category: 'marketing'
-title: '5 Reasons You Need to Start Focusing on Mobile Marketing'
+author: 
 image: ''
-excerpt: 'Did you know that 95% of smartphone users have used their phones to look up local businesses? Furthermore, once these prospective customers found the companies they were looking for, 61% took action and called.'
+excerpt: Did you know that 95% of smartphone users have used their phones to look
+  up local businesses? Furthermore, once these prospective customers found the companies
+  they were looking for, 61% took action and called.
 ---
+
 Did you know that [95% of smartphone users](http://www.forbes.com/sites/cherylsnappconner/2013/11/12/fifty-essential-mobile-marketing-facts/#5364ee8f7b7e) have used their phones to look up local businesses? Furthermore, once these prospective customers found the companies they were looking for, 61% took action and called. 
 
 It’s become abundantly clear that if you want to get your brand in front of more prospects, you have to find a way to reach them where they are, and that place is on their mobile devices. Yet, for whatever reason, many businesses still haven’t jumped on the mobile bandwagon. Some are concerned it will be too cost prohibitive. Others simply don’t know where to begin.
