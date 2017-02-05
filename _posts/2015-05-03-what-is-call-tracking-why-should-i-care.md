@@ -1,11 +1,16 @@
 ---
+title: What is Call Tracking and Why Should I Care?
+date: 2015-05-03 00:00:00 Z
+categories:
+- marketing
 layout: post
 author: alex
-category: 'marketing'
-title: What is Call Tracking and Why Should I Care?
 image: ''
-excerpt: 'Over the last decade there has been an enormous amount of focus on digital marketing, tracking digital campaigns, search engine optimization, and analyzing web lead data for more effective marketing and better ROI.'
+excerpt: Over the last decade there has been an enormous amount of focus on digital
+  marketing, tracking digital campaigns, search engine optimization, and analyzing
+  web lead data for more effective marketing and better ROI.
 ---
+
 This is my very first post, I'm the founder of Calltracker and if you're reading it you might wonder, why did this company get started? I'm glad you asked, let me explain.
 
 Over the last decade there has been an enormous amount of focus on digital marketing, tracking digital campaigns, search engine optimization, and analyzing web lead data for more effective marketing and better ROI. 

@@ -1,11 +1,18 @@
 ---
+title: 7 Holiday Mobile Marketing Strategies
+date: 2016-11-06 00:00:00 Z
+categories:
+- marketing
 layout: post
 author: 
-category: 'marketing'
-title: '7 Holiday Mobile Marketing Strategies'
-image: '/images/posts/mobile-marketing.jpg'
-excerpt: 'The holiday season is officially upon us, and with more than half of today’s consumers expected to use their mobile devices to make online purchases over the coming weeks, there’s never been a better time to invest in mobile marketing. If you haven’t yet developed and launched a holiday mobile marketing strategy for your business, here are a few creative ideas to get you started.'
+image: "/images/posts/mobile-marketing.jpg"
+excerpt: The holiday season is officially upon us, and with more than half of today’s
+  consumers expected to use their mobile devices to make online purchases over the
+  coming weeks, there’s never been a better time to invest in mobile marketing. If
+  you haven’t yet developed and launched a holiday mobile marketing strategy for your
+  business, here are a few creative ideas to get you started.
 ---
+
 The holiday season is officially upon us, and with [more than half](https://www.emarketer.com/Article/Most-Digital-Buyers-Will-Make-Purchases-via-Smartphone-by-2017/1013590) of today’s consumers expected to use their mobile devices to make online purchases over the coming weeks, there’s never been a better time to invest in mobile marketing. If you haven’t yet developed and launched a holiday mobile marketing strategy for your business, here are a few creative ideas to get you started.
 
 **_Exclusive Coupons and Special Offers_** – [42 percent](http://go.kouponmedia.com/state-of-the-mobile-coupon-industry) of mobile users say they have used a mobile coupon, and 39 percent say they’re likely to spend more money as a result. If you’re not capitalizing on these facts, you’re leaving money on the table (and your competition is probably scooping it up). Give your prospects a reason to shop with you by offering them exclusive deals via their mobile devices. As a bonus, you can track coupon usage to gauge the success of each mobile campaign.

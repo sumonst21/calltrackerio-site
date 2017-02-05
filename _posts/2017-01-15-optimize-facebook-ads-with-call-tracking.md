@@ -1,11 +1,16 @@
 ---
+title: Optimize Your Facebook Marketing with Call Tracking
+date: 2017-01-15 00:00:00 Z
+categories:
+- marketing
 layout: post
-author:
-category: 'marketing'
-title: 'Optimize Your Facebook Marketing with Call Tracking'
-image: '/images/posts/facebook-ads-optimization-with-call-tracking.jpg'
-excerpt: 'The goal of your Facebook ads is to drive as many qualified leads to your business as possible. But how can you know which campaigns are getting the best results?'
+author: 
+image: "/images/posts/facebook-ads-optimization-with-call-tracking.jpg"
+excerpt: The goal of your Facebook ads is to drive as many qualified leads to your
+  business as possible. But how can you know which campaigns are getting the best
+  results?
 ---
+
 The goal of your Facebook ads is to drive as many qualified leads to your business as possible. But how can you know which campaigns are getting the best results? You’re probably already tracking your web leads (i.e. people who fill out your contact form), but what about those who chose to call instead? Isn’t that information equally if not more valuable? 
 
 After all, if someone takes the steps to actually pick up the phone and call your business, chances are they’re already a viable lead. In fact, because they’d rather call than fill out a form and wait for a response indicates that they’re more eager to buy _now_. Because of this, learning which Facebook ads are generating these “hot” leads is of great importance to your business. The best way to do this is through a call tracking campaign. 

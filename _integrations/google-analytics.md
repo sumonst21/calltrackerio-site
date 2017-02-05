@@ -1,11 +1,12 @@
 ---
+title: Google Analytics
 layout: integration
-title: 'Google Analytics'
-image: '/images/integrations/google-analytics-icon.png'
-excerpt: 'Turn insights into action.'
-more_info:  false
+image: "/images/integrations/google-analytics-icon.png"
+excerpt: Turn insights into action.
+more_info: false
 featured: true
 ---
+
 Google Analytics lets you do more than measure sales and conversions. It also gives insights into how visitors find and use your site, and how to keep them coming back.
 
 Our Google Analytics integration pushes your phone call activity into your Google Analytics profile so that you can analyze your phone calls right along side your website activity. This integration also is the foundation of our Google Adwords integration as well. 

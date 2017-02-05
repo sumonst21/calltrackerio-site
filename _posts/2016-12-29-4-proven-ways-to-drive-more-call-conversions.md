@@ -1,11 +1,17 @@
 ---
+title: 4 Proven Ways to Drive More Call Conversions
+date: 2016-12-29 00:00:00 Z
+categories:
+- marketing
 layout: post
 author: 
-category: 'marketing'
-title: '4 Proven Ways to Drive More Call Conversions'
-image: '/images/posts/call-conversion-strategy.jpg'
-excerpt: 'When it comes to marketing, getting the attention of your target audience is really only half the battle. To realize a return on your investment, your marketing efforts have to be effective in getting those prospects to actually pick up the phone and call. Easier said than done? Not necessarily.'
+image: "/images/posts/call-conversion-strategy.jpg"
+excerpt: When it comes to marketing, getting the attention of your target audience
+  is really only half the battle. To realize a return on your investment, your marketing
+  efforts have to be effective in getting those prospects to actually pick up the
+  phone and call. Easier said than done? Not necessarily.
 ---
+
 When it comes to marketing, getting the attention of your target audience is really only half the battle. To realize a return on your investment, your marketing efforts have to be effective in getting those prospects to actually pick up the phone and call. Easier said than done? Not necessarily. In fact, there has been plenty of research and analysis on this very topic, which has identified four proven techniques for driving more call conversions. These strategies are as follows.
 
 **_Call-to-Call Ads_**

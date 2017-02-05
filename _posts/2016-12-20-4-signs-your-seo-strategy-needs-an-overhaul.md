@@ -1,11 +1,17 @@
 ---
+title: 4 Signs Your SEO Strategy Needs an Overhaul
+date: 2016-12-20 00:00:00 Z
+categories:
+- marketing
 layout: post
 author: 
-category: 'marketing'
-title: '4 Signs Your SEO Strategy Needs an Overhaul'
-image: '/images/posts/seo-strategy-needs-overhaul.jpg'
-excerpt: 'Is your SEO strategy getting you the results you’re after? If not, here are four warning signs that it may be time for an overhaul. 93 percent of all online experiences begin with a search engine. It’s safe to assume, then, that a good portion of that activity involves looking up businesses to purchase products or services.'
+image: "/images/posts/seo-strategy-needs-overhaul.jpg"
+excerpt: Is your SEO strategy getting you the results you’re after? If not, here are
+  four warning signs that it may be time for an overhaul. 93 percent of all online
+  experiences begin with a search engine. It’s safe to assume, then, that a good portion
+  of that activity involves looking up businesses to purchase products or services.
 ---
+
 How easy is it for your target audience to find your business online? 
 
 According to [Forrester Research](http://www.forrester.com), 93 percent of all online experiences begin with a search engine. It’s safe to assume, then, that a good portion of that activity involves looking up businesses to purchase products or services. If your site isn’t adequately optimized, chances are it isn’t getting found online, which means you are missing out on the opportunity to attract and convert new customers.

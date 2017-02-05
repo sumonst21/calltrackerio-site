@@ -1,10 +1,11 @@
 ---
+title: Dynamic Number Insertion
 layout: integration
-title: 'Dynamic Number Insertion'
-image: '/images/integrations/calltracker-dni.png'
-excerpt: 'Show the right number at the right time.'
-more_info:  false
+image: "/images/integrations/calltracker-dni.png"
+excerpt: Show the right number at the right time.
+more_info: false
 ---
+
 <a href="https://en.wikipedia.org/wiki/Dynamic_keyword_insertion" target="_blank">Dynamic Number Insertion</a> (DNI) is the core engine behind effective call tracking for digital marketers for your website and landing pages. DNI will automatically swap your real phone number with a tracking number in real time. With our DNI integration setup on your website, you'll be able to harness the full power of our call tracking to target visitors based on different traffic sources, landing pages, campaigns, and also keywords with our number pools. 
 
 ##### Benefits of Dynamic Number Insertion

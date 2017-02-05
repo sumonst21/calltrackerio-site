@@ -1,11 +1,16 @@
 ---
+title: When You Should Build Not Buy
+date: 2016-02-10 00:00:00 Z
+categories:
+- product
 layout: post
 author: alex
-category: 'product'
-title: When You Should Build Not Buy
-image: '/images/posts/build-vs-buy.png'
-excerpt: 'If there is an existing product that solves a problem for your business that isn’t part of your core value chain, it’s almost always better to buy than build. But what if there isn’t?'
+image: "/images/posts/build-vs-buy.png"
+excerpt: If there is an existing product that solves a problem for your business that
+  isn’t part of your core value chain, it’s almost always better to buy than build.
+  But what if there isn’t?
 ---
+
 If there is an existing product that solves a problem for your business that isn’t part of your core value chain, it’s almost always better to buy than build. **But what if there isn’t?**
 
 Each time something new comes up, I like to take a step back and think about the problem we’re really trying to solve and the experience we really want to give our customers before we default to buying another tool. With all of the SaaS apps available today, it’s all too easy to be a little trigger happy about buying a tool without thinking too deep about the issue and how to approach it.  

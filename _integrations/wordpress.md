@@ -1,11 +1,13 @@
 ---
+title: WordPress
 layout: integration
-title: 'WordPress'
-image: '/images/integrations/wp-logo.png'
-excerpt: 'Website CMS and Publishing Platform'
-more_info:  '<h4>Install the Plugin</h4><a href="http://wordpress.org/plugins/calltracker" class="btn btn-success btn-block" target="_blank">Get the Plugin</a>'
+image: "/images/integrations/wp-logo.png"
+excerpt: Website CMS and Publishing Platform
+more_info: <h4>Install the Plugin</h4><a href="http://wordpress.org/plugins/calltracker"
+  class="btn btn-success btn-block" target="_blank">Get the Plugin</a>
 featured: true
 ---
+
 Easily install Call Tracker's Dynamic Number Insertion integration script on your WordPress powered website in seconds with no coding or file editing required. With the plugin installed, you only need to add your API Key inside the WordPress Admin and you're ready to go.
 
 

@@ -1,11 +1,16 @@
 ---
+title: Become an Early Adopter and get 15% Off
+date: 2016-02-02 00:00:00 Z
+categories:
+- product
 layout: post
 author: alex
-category: 'product'
-title: Become an Early Adopter and get 15% Off
-image: '/images/posts/early-adopters-annoucement.png'
-excerpt: 'We&#39;re exicited to announce that we&#39;re nearing the launch of our call tracking application. Join as an early adopter and get 15% off your entire bill for life.'
+image: "/images/posts/early-adopters-annoucement.png"
+excerpt: We&#39;re exicited to announce that we&#39;re nearing the launch of our call
+  tracking application. Join as an early adopter and get 15% off your entire bill
+  for life.
 ---
+
 <p>We're exicited to announce that we're nearing the launch of our call tracking application. The initial development is almost finished with only a few loose ends to tie up and testing before we're ready for public use. For a limitied time we're launching to a limited number of early adopoters. As part of our early adopter program, we want to say thank you in advance for the trust and feedback that each customer provides, <strong>we'll be giving early adopters 15% off you're entire bill for life</strong>.</p> 
 
 <p>Interested in joining the early adopter program? <a href="https://app.calltracker.io/signup/">Join the early adopters now.</a></p>
