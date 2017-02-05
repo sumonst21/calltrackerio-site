@@ -8,16 +8,17 @@ layout: base
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
         <h3>{% for category in site.categories %}<a href="/{{ category | first | slugize }}">{{ category | first | capitalize }}</a>{% endfor %}</h3>
-          {% for post in site.categories.[page.category] %}
+          {% for post in site.categories[page.category] %}
           {% assign author = site.authors[post.author] %}
           <div class="post-preview">
           <a href="{{ post.url}}">
+            {% if post.image %}
             <img src="{{ post.image }}" class="img-responsive" />
+            {% endif %}
             <h3 class="bold">{{ post.title }}</h3>
-          </a>  
-            <p><small class="text-muted"></small><img src="//www.gravatar.com/avatar/{{ author.gravatar }}?s=40" class="img-circle"> {{ author.display_name }} on {{ post.date | date: '%B %d, %Y' }}</p>
-                  <p>{{ post.excerpt }}</p>
-                  <p><a href="{{ post.url }}" class="btn btn-inverse">Read More</a></p>
+          </a>
+                <p>{{ post.excerpt }}</p>
+                <p><a href="{{ post.url }}" class="btn btn-inverse">Read More</a></p>
          </div>
          <hr>
         {% endfor %}
