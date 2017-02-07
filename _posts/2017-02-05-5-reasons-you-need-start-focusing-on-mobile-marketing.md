@@ -3,7 +3,7 @@ layout: post
 author:
 category: 'marketing'
 title: '5 Reasons You Need to Start Focusing on Mobile Marketing'
-image: ''
+image: '/images/posts/mobile-marketing-strategies-2017.png'
 excerpt: 'Did you know that 95% of smartphone users have used their phones to look up local businesses? Furthermore, once these prospective customers found the companies they were looking for, 61% took action and called.'
 ---
 Did you know that [95% of smartphone users](http://www.forbes.com/sites/cherylsnappconner/2013/11/12/fifty-essential-mobile-marketing-facts/#5364ee8f7b7e) have used their phones to look up local businesses? Furthermore, once these prospective customers found the companies they were looking for, 61% took action and called. 
