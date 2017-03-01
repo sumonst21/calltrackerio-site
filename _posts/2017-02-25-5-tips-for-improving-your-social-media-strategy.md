@@ -6,7 +6,7 @@ categories:
 layout: post
 author:
 category: 'marketing'
-image: ''
+image: '/images/posts/5-tips-for-improving-your-social-media-strategy.png'
 excerpt: 'It&rsquo;s 2017 and it&rsquo;s almost unheard of for a business not to have at least some sort of presence on social media, and for good reason. The percentage of consumers who follow brands socially range from 85% of those aged 45-54 to 95% of 18-34 year olds. Those statistics are pretty powerful in and of themselves. '
 ---
 
