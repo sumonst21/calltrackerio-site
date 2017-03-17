@@ -6,7 +6,7 @@ categories:
 layout: post
 author:
 category: 'marketing'
-image: ''
+image: '/images/posts/click-to-call-conversions.png'
 excerpt: 'Have you ever called a business directly from a Google search, ad or website using your mobile phone? According to the latest statistics, chances are very good that you have. In fact research has found that 70% of mobile users have used click-to-call at some point.'
 ---
 
