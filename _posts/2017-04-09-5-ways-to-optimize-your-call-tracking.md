@@ -6,7 +6,7 @@ categories:
 layout: post
 author:
 category: 'marketing'
-image: ''
+image: '/images/posts/5-ways-to-improve-conversion-rates-with-call-tracking.png'
 excerpt: 'When you visit a website and are looking for more information from a particular company, what are you more likely to do – fill out a complicated contact form or pick up the phone?'
 ---
 When you visit a website and are looking for more information from a particular company, what are you more likely to do – fill out a complicated contact form or pick up the phone? The latter is much easier, which is why using call tracking to measure marketing performance just makes sense. You still receive valuable data about your leads, but you don’t have to make them jump through hoops in order to do so. 
