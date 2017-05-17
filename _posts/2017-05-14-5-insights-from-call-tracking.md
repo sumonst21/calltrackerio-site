@@ -6,7 +6,7 @@ categories:
 layout: post
 author:
 category: 'marketing'
-image: ''
+image: '/images/posts/5-insights-from-call-tracking.png'
 excerpt: 'Did you know that voice calls are 10 to 15 times more likely to convert than online forms?'
 ---
 Did you know that voice calls are [10 to 15 times](http://www.marketingprofs.com/opinions/2015/27264/the-human-voice-is-crucial-for-online-sales-heres-proof) more likely to convert than online forms? This is why driving more incoming calls is so critically important to your business. But it’s not just about getting people to pick up the phone and dial your number. There are a ton of other things you can learn from those incoming inquiries, provided you have a good call tracking strategy in place. Let’s take a look at five of those insights below (and why they matter).
