@@ -6,7 +6,7 @@ categories:
 layout: post
 author:
 category: 'marketing'
-image: ''
+image: '/images/posts/developing-and-optimizing-an-effective-marketing-plan.png'
 excerpt: 'Developing and managing a budget are among a marketing leader’s most important - and oftentimes challenging - tasks.'
 ---
 Developing and managing a budget are among a marketing leader’s most important - and oftentimes challenging - tasks. There is only so much money available and where you allocate each dollar can mean the difference between a marketing strategy that barely gets you by and one that truly drives the success of the business. Thankfully, with the right approach, optimizing your marketing budget doesn’t have to be a nightmare. Here are a few tips to get you pointed in the right direction.
