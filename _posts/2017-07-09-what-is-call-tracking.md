@@ -6,7 +6,7 @@ categories:
 layout: post
 author:
 category: 'marketing'
-image: ''
+image: '/images/posts/marketing-budget-optimization.png'
 excerpt: 'Call tracking or sometimes called "call capture" is a tool that businesses can use to track and record incoming phone calls from their marketing advertisments. In particular, it allows marketers to more accurately measure the results of the campaigns they run – including PPC, local SEO and even offline advertising - so that they can more effectively allocate and optimize their marketing spend.'
 ---
 Call tracking or sometimes called "call capture" is a tool that businesses can use to track and record incoming phone calls from their marketing advertisments. In particular, it allows marketers to more accurately measure the results of the campaigns they run – including PPC, local SEO and even offline advertising - so that they can more effectively allocate and optimize their marketing spend. Here are a few specific problems that call tracking can provide resolution for:
