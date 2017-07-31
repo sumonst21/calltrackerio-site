@@ -6,7 +6,7 @@ categories:
 layout: post
 author:
 category: 'marketing'
-image: ''
+image: '/images/posts/getstartedwithcalltracking.png'
 excerpt: 'Call tracking software can make a great complement to your marketing efforts because it provides valuable insight into who is calling, where those leads are coming from and, most importantly, what’s motivating them to call. This information can help you further hone and optimize your approach for even better results. If you’re thinking about giving call tracking a try but are unsure exactly where or how to begin, here are three great ways to get started.'
 ---
 Call tracking software can make a great complement to your marketing efforts because it provides valuable insight into who is calling, where those leads are coming from and, most importantly, what’s motivating them to call. This information can help you further hone and optimize your approach for even better results. If you’re thinking about giving call tracking a try but are unsure exactly where or how to begin, here are three great ways to get started.
