@@ -21,6 +21,7 @@ layout: base
 							<input type="hidden" name="FORM_ID" value="c346117b-a5d6-4a37-8b14-c4d2a60774ea">
 							<input type="hidden" name="COMPLETE_URL" value="{{site.url}}/thank-you/">
 							<input type="hidden" name="TAG" value="website">
+							<input class="hidden" id="comment-field" type="text" name="COMMENT" />
 							<div class="form-group floating-label">
 						        <label class="control-label" for="fieldName">Name</label><br />
 					  			<input class="form-control" type="text" name="PERSON_NAME" required/>
@@ -37,6 +38,9 @@ layout: base
 						  	<div class="form-group textarea-group floating-label">
 						  		<label class="control-label" for="fieldCompany">How can we help?</label><br />
 						  		<textarea cols="40" rows="3" class="form-control" id="textArea" name="message"></textarea>
+						  	</div>
+						  	<div class="form-group">
+						  		<div class="g-recaptcha" data-sitekey="6LcOw2cUAAAAAEizaB7nmhJgDiICIjXDSwyae28o"></div>
 						  	</div>
 							<input class="btn btn-primary btn-block" type='submit' value='Get in Touch' />
 						</form>
