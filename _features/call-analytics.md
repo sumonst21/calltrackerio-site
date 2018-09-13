@@ -3,7 +3,7 @@ title: Call Analytics
 layout: feature
 image: "/images/features/call-analytics.png"
 excerpt: Real time call analytics to help your team analyze call data.
-order: 1
+order: 2
 ---
 
 The most important part of call tracking is the data and being able to see trends in your calls to make smarter decisions for more effective marketing. Call Tracker has a suite of reports that give you real time data on call activity and what is driving those calls.
