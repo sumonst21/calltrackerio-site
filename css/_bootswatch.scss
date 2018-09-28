@@ -2,7 +2,7 @@
 // Bootswatch
 // -----------------------------------------------------
 
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic&subset=greek,latin);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,500,700,400italic,700italic&subset=greek,latin);
 
 // Navbar =====================================================================
 
@@ -489,18 +489,18 @@ input[type="checkbox"],
         background-color: lighten($progress-bar-bg, 35%);
       }
     }
-    
+
     &-success:last-child.progress-bar:before {
       background-color: lighten($brand-success, 35%);
     }
-    
+
     &-info:last-child.progress-bar:before {
       background-color: lighten($brand-info, 45%);
     }
     &-warning:last-child.progress-bar:before {
       background-color: lighten($brand-warning, 35%);
     }
-    
+
     &-danger:last-child.progress-bar:before {
       background-color: lighten($brand-danger, 25%);
     }
