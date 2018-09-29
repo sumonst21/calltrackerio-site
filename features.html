@@ -20,7 +20,7 @@ layout: base
   <div class="container">
   	<div class="row">
 		{% for feature in sorted_features %}
-		 <div class="col-md-4 feature-item">
+		 <div class="col-md-4 col-sm-6 col-xs-12 feature-item">
 		 	<a href="{{ feature.url }}" class="">
 		 		{% if feature.image %}
 		 		<img src="{{ feature.image }}" class="img-responsive" alt="{{ feature.title }}"/>

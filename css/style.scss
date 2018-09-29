@@ -495,16 +495,13 @@ ul.lead i {
  * Feature styles
  * --------------------------------------------- */
 .feature-item {
-  position: relative;
-  float: left;
-  width: 30.99%;
-  margin: 0 0 20px 20px;
-  border-bottom: 1px solid #ededed;
+  margin: 0 0 20px 0;
+  min-height: 250px;
 }
 .feature-item a:hover{
   text-decoration: none;
 }
 
 .feature-item a {
-  color: #666;
+  color: $text-color;
 }
