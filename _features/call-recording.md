@@ -2,7 +2,7 @@
 title: Call Recording
 layout: feature
 image: "/images/features/call-recording.png"
-excerpt: Focus on the conversation instead of taking notes.
+excerpt: Use our Call Recording to focus on the conversation instead of taking notes.
 order: 4
 ---
 
@@ -16,4 +16,4 @@ order: 4
 	<li><i class="material-icons text-success">check</i> Worry free calls by allowing you focus on the conversation instead of taking notes.</li>
 </ul>
 
-Read more about <a href="https://app.calltracker.io/help/article/call-recording-legal/">call recording</a> and how to enable it. 
+Read more about <a href="https://app.calltracker.io/help/article/call-recording-legal/">call recording</a> and how to enable it.
