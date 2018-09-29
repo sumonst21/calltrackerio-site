@@ -45,7 +45,7 @@ Integrations styles
 .integration-listing-item-header {
     margin: 15px 10px 0;
     font-size: 16px;
-    color: #666;
+    color: $headings-color;
 }
 
 .integration-listing-item-excerpt {
@@ -55,7 +55,7 @@ Integrations styles
   margin-top: 5px;
   overflow: hidden;
   font-size: 13px;
-  color: #666;
+  color: $text-color;
 }
 
 .integration-details-title {
@@ -70,7 +70,7 @@ Integrations styles
 
 .integration-grid-item-sm {
   margin: 10px;
-  width: 21.99%;  
+  width: 21.99%;
   position: relative;
   float: left;
   text-align: center;
@@ -94,16 +94,16 @@ Integrations styles
 }
 /* Medium devices (desktops, 992px and up) */
 @media (max-width: 1200px) and (min-width: 768px) {
-  .integration-listing-item { 
+  .integration-listing-item {
     width: 31.99%;
   }
 }
 /* Small devices (tablets, 768px and up) */
-@media (max-width: 768px) { 
-  .integration-listing-item { 
+@media (max-width: 768px) {
+  .integration-listing-item {
     width: 90%;
   }
-  .integration-grid-item-sm { 
+  .integration-grid-item-sm {
     width: 90%;
   }
 }
