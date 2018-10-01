@@ -2,7 +2,7 @@
 title: White Label for Agenices
 layout: feature
 image: "/images/features/agency-dashboard.jpg"
-icon: "business"
+icon: "compare"
 excerpt: Your company's brand everywhere in the platform at no extra charge.
 order: 2
 ---
