@@ -2,6 +2,7 @@
 title: Call Recording
 layout: feature
 image: "/images/features/call-recording.png"
+icon: "mic_none"
 excerpt: Use our Call Recording to focus on the conversation instead of taking notes.
 order: 4
 ---

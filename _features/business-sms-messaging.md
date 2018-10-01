@@ -2,6 +2,7 @@
 title: Text Messaging for Business
 layout: feature
 image: "/images/features/sms-messages-index.png"
+icon: "question_answer"
 excerpt: Bring sms communication with your customers and your team.
 order: 4
 ---

@@ -2,7 +2,8 @@
 title: Call Analytics
 layout: feature
 image: "/images/features/call-analytics.png"
-excerpt: Real time call analytics to help your team analyze call data.
+icon: "insert_chart"
+excerpt: Real time call insights to help your team make data driven marketing decisions.
 order: 2
 ---
 

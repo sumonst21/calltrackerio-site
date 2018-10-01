@@ -2,7 +2,8 @@
 title: White Label for Agenices
 layout: feature
 image: "/images/features/agency-dashboard.jpg"
-excerpt: Your company's brand everywhere at no extra charge.
+icon: "business"
+excerpt: Your company's brand everywhere in the platform at no extra charge.
 order: 2
 ---
 

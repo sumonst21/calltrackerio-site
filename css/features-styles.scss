@@ -1,0 +1,44 @@
+/* -----------------------------------------------
+ * Feature styles
+ * --------------------------------------------- */
+.features-list {
+    li {
+    margin: 15px 0;
+    }
+}
+
+ .features-item {
+    margin: 0 0 20px 0;
+     min-height: 250px;
+    a {
+        color: $text-color;
+    }
+    a:hover {
+        color: $text-color;
+        text-decoration: none;
+    }
+    .features-icon {
+        margin: 20px 0;
+        padding: 40px;
+        background-color: $well-bg;
+        text-align: center;
+        color: $brand-primary;
+        .material-icons {
+            font-size: 60px;
+        }
+    }
+}
+
+.features-details {
+    .features-icon {
+    margin: 40px 0;
+    padding: 60px;
+    background-color: $well-bg;
+    text-align: center;
+
+    color: $brand-primary;
+        .material-icons {
+            font-size: 100px;
+        }
+    }
+}

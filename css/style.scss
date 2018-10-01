@@ -9,6 +9,7 @@
 @import 'utility-classes';
 //@import 'focal-point';
 @import 'integrations-styles';
+@import 'features-styles';
 @import 'animate.css';
 @import 'ouibounce';
 // add more css stuff here
@@ -69,10 +70,6 @@ h5.media-heading {
   width: 70%;
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-.features-list li {
-  margin: 15px 0;
 }
 /* -----------------------------------------------
  * Section Background Styles
@@ -494,17 +491,4 @@ ul.lead i {
     padding-left: 45px;
 }
 
-/* -----------------------------------------------
- * Feature styles
- * --------------------------------------------- */
-.feature-item {
-  margin: 0 0 20px 0;
-  min-height: 250px;
-}
-.feature-item a:hover{
-  text-decoration: none;
-}
 
-.feature-item a {
-  color: $text-color;
-}

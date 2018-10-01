@@ -2,6 +2,7 @@
 title: Local & Toll Free Phone Numbers
 layout: feature
 image: "/images/features/toll-free-local-numbers.jpg"
+icon: "ring_volume"
 excerpt: Thousands of phone numbers on tap for the US & Canada.
 order: 1
 ---
