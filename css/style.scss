@@ -186,16 +186,10 @@ ul.lead i {
   color: $headings-color;
 }
 
-.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: $brand-primary;
-}
-
 .navbar-toggle {
-  background-color: $brand-primary;
-}
-
-.navbar-toggle .icon-bar {
-    background-color: #fff;
+  .icon-bar {
+     background-color: $text-color;
+  }
 }
 
 .navbar-brand {
