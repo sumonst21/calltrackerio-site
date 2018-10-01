@@ -9,12 +9,9 @@
 
  .features-item {
     margin: 0 0 20px 0;
-     min-height: 250px;
-    a {
-        color: $text-color;
-    }
-    a:hover {
-        color: $text-color;
+    max-height: 280px;
+    a, a:hover {
+       color: $text-color;
         text-decoration: none;
     }
     .features-icon {
