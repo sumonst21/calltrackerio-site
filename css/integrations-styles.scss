@@ -14,16 +14,8 @@ Integrations styles
     margin: 0 0 10px 10px;
     font-size: 13px;
     text-align: center;
-    border: 1px solid #ededed;
-    border-radius: 2px;
-    -webkit-transition: border-color 0.15s ease 0s, -webkit-transform 0.15s ease 0s, box-shadow 0.15s ease 0s, color 0.15s ease 0s;
-    transition: border-color 0.15s ease 0s, transform 0.15s ease 0s, box-shadow 0.15s ease 0s, color 0.15s ease 0s;
-}
-
-.integration-listing-item:hover {
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
+    border-radius: 3px;
+    box-shadow: 0 1px 2px 0 rgba(136,144,195,0.2), 0 2px 5px 0 rgba(37,44,97,0.15);
 }
 
 .integration-listing-item-link {
@@ -46,6 +38,7 @@ Integrations styles
     margin: 15px 10px 0;
     font-size: 16px;
     color: $headings-color;
+    font-weight: 600;
 }
 
 .integration-listing-item-excerpt {
@@ -70,18 +63,16 @@ Integrations styles
 
 .integration-grid-item-sm {
   margin: 10px;
+  padding: 20px;
   width: 21.99%;
   position: relative;
   float: left;
   text-align: center;
-  border-radius: 2px;
-  -webkit-transition: border-color 0.15s ease 0s, -webkit-transform 0.15s ease 0s, box-shadow 0.15s ease 0s, color 0.15s ease 0s;
-  transition: border-color 0.15s ease 0s, transform 0.15s ease 0s, box-shadow 0.15s ease 0s, color 0.15s ease 0s;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px 0 rgba(136,144,195,0.2), 0 2px 5px 0 rgba(37,44,97,0.15);
 }
 .integration-grid-item-sm:hover {
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
+  box-shadow: 0 1px 2px 0 rgba(136,144,195,0.2), 0 2px 5px 0 rgba(37,44,97,0.15);
 }
 .integration-grid-item-sm-link {
   display: block;
