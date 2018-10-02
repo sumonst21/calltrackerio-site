@@ -1,0 +1,59 @@
+---
+title: Blog
+layout: base
+---
+
+{% include header.html %}
+<div class="content">
+<section>
+  <div class="container">
+  	<div class="row">
+  		<div class="col-md-8 col-md-offset-2 m-t-30">
+  			{% for post in paginator.posts %}
+  			{% assign author = site.authors[post.author] %}
+			 <div class="post-preview">
+			 	<a href="{{ post.url}}">
+			 		<h3 class="bold">{{ post.title }}</h3>
+			 	</a>
+	          	<p>{{ post.excerpt }}</p>
+	          	<p><a href="{{ post.url }}" class="btn btn-inverse">Read More</a></p>
+			 </div>
+			 <hr>
+			{% endfor %}
+  		</div>
+      </div>
+      <div>
+          <div class="col-md-8 col-md-offset-2 m-t-30">
+                {% if paginator.total_pages > 1 %}
+                <ul class="pagination">
+                    {% if paginator.previous_page %}
+                    <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Previous</a></li>
+                    {% else %}
+                    <li class="disabled"><a>Previous</a></li>
+                    {% endif %}
+                    {% for page in (1..paginator.total_pages) %}
+                    {% if page == paginator.page %}
+                    <li class="active"><a>{{ page | pnumber }}</a></li>
+                    {% elsif page == 1 %}
+                    <li><a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page | pnumber }}</a></li>
+                    {% else %}
+                    <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page
+                            | pnumber }}</a></li>
+                    {% endif %}
+                    {% endfor %}
+                    {% if paginator.next_page %}
+                    <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a></li>
+                    {% else %}
+                    <li class="disabled"><a>Next</a></li>
+                    {% endif %}
+                </ul>
+                {% endif %}
+          </div>
+      </div>
+</div>
+</section>
+</div>
+{% include footer.html %}
+{% include javascript.html %}
+</body>
+</html>
