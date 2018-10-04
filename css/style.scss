@@ -230,28 +230,21 @@ ul.lead i {
  * Hero Styles
  * --------------------------------------------- */
 .hero {
-  //background: $brand-primary url('/images/skin/bg_banner-min.jpg') no-repeat center center;
-  // -webkit-background-size: cover;
-  // -moz-background-size: cover;
-  // -o-background-size: cover;
-  // background-size: cover;
-  // max-height: 850px;
-}
-
-.hero nav {
-  background: rgba(0, 156, 255, 0.53);
-  border-bottom: 1px solid rgba(16, 125, 213, 0.77);
-}
-.hero .navbar-nav>li>a:hover {
-    background: none repeat scroll 0 0 transparent;
-    box-shadow: 0 -1px 0 0 #fff inset;
-}
-.hero p {
-
-}
-.hero .navbar-nav > li > a {
-  text-transform: uppercase;
-  color: #fff;
+    .heading {
+        font-size: 50px;
+    }
+    nav {
+        background: rgba(0, 156, 255, 0.53);
+        border-bottom: 1px solid rgba(16, 125, 213, 0.77);
+    }
+    .navbar-nav>li>a:hover {
+        background: none repeat scroll 0 0 transparent;
+        box-shadow: 0 -1px 0 0 #fff inset;
+    }
+    .navbar-nav > li > a {
+        text-transform: uppercase;
+        color: #fff;
+    }
 }
 .hero-screenshot {
   width: 80%;
