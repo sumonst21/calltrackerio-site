@@ -268,28 +268,29 @@ ul.lead i {
  * --------------------------------------------- */
 
 .price {
-  border-radius: 5px;
-  margin:10px;
-  color: #000;
-}
-.price > .dollar {
-  font-size: 45px;
-  line-height: 1em;
-  position: absolute;
-  top: 30px;
-}
-.price > .cent {
-  font-size: 45px;
-  line-height: 1em;
-}
-.price > .figure {
-  font-size: 96px;
-  padding: 0 0 0 14px;
-  font-weight: 500;
-  line-height: 140px;
-}
-.price > .month {
-  font-size: 16px;
+    border-radius: 5px;
+    margin:10px;
+    color: #000;
+
+  .dollar {
+        font-size: 45px;
+        line-height: 1em;
+        position: absolute;
+        top: 30px;
+    }
+    .cent {
+        font-size: 45px;
+        line-height: 1em;
+    }
+    .figure {
+        font-size: 96px;
+        padding: 0 0 0 14px;
+        font-weight: 500;
+        line-height: 140px;
+    }
+    .month {
+        font-size: 16px;
+    }
 }
 
 .price-interval {
