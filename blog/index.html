@@ -16,7 +16,7 @@ layout: base
 			 		<h3 class="bold">{{ post.title }}</h3>
 			 	</a>
 	          	<p>{{ post.excerpt }}</p>
-	          	<p><a href="{{ post.url }}" class="btn btn-inverse">Read More</a></p>
+	          	<p><a href="{{ post.url }}" class="btn btn-primary">Read More</a></p>
 			 </div>
 			 <hr>
 			{% endfor %}
@@ -35,7 +35,7 @@ layout: base
                     {% if page == paginator.page %}
                     <li class="active"><a>{{ page | pnumber }}</a></li>
                     {% elsif page == 1 %}
-                    <li><a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page | pnumber }}</a></li>
+                    <li><a href="{{ '/blog/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page | pnumber }}</a></li>
                     {% else %}
                     <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page
                             | pnumber }}</a></li>
