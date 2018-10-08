@@ -1,6 +1,6 @@
 ---
 title: 'Call Tracker is Now a Twilio Partner'
-date: 2017-07-29 00:00:00 Z
+date: 2018-09-06 00:00:00 Z
 categories:
 - marketing
 layout: post
