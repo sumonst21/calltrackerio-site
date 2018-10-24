@@ -27,7 +27,7 @@ markdown_ext: markdown,mkdown,mkdn,mkd,md
 sass:
   sass_dir: css
   style: compressed
-gems:
+plugins:
 - jekyll-sitemap
 - jekyll-paginate
 assets:
